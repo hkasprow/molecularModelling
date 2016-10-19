@@ -1,0 +1,9 @@
+/usr/share/terminator/terminatorlib/terminator.py:87: Warning: Attempt to add property GnomeProgram::sm-connect after class was initialised
+  self.gnome_program = gnome.init(APP_NAME, APP_VERSION)
+/usr/share/terminator/terminatorlib/terminator.py:87: Warning: Attempt to add property GnomeProgram::show-crash-dialog after class was initialised
+  self.gnome_program = gnome.init(APP_NAME, APP_VERSION)
+/usr/share/terminator/terminatorlib/terminator.py:87: Warning: Attempt to add property GnomeProgram::display after class was initialised
+  self.gnome_program = gnome.init(APP_NAME, APP_VERSION)
+/usr/share/terminator/terminatorlib/terminator.py:87: Warning: Attempt to add property GnomeProgram::default-icon after class was initialised
+  self.gnome_program = gnome.init(APP_NAME, APP_VERSION)
+<Window object at 0x7efe600dc0a0 (terminatorlib+window+Window at 0x1f68030)> is not in registered window list

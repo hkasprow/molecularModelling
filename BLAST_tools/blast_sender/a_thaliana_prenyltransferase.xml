@@ -1,0 +1,1442 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.5.0+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>nr</BlastOutput_db>
+  <BlastOutput_query-ID>NP_565551.1</BlastOutput_query-ID>
+  <BlastOutput_query-def>cis-prenyltransferase [Arabidopsis thaliana]</BlastOutput_query-def>
+  <BlastOutput_query-len>303</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>NP_565551.1</Iteration_query-ID>
+  <Iteration_query-def>cis-prenyltransferase [Arabidopsis thaliana]</Iteration_query-def>
+  <Iteration_query-len>303</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gi|18400264|ref|NP_565551.1|</Hit_id>
+  <Hit_def>cis-prenyltransferase [Arabidopsis thaliana] &gt;gi|75223198|sp|O80458.2|DDPS1_ARATH RecName: Full=Dehydrodolichyl diphosphate synthase 1; Short=Dedol-PP synthase 1; AltName: Full=Ditrans,polycis-polyprenyl diphosphate synthase ((2E,6E)-farnesyl diphosphate specific) 1 &gt;gi|6651294|gb|AAF22257.1|AF162441_1 cis-prenyltransferase homolog [Arabidopsis thaliana] &gt;gi|7960765|emb|CAB91841.1| dehydrodolichyl diphosphate synthase [Arabidopsis thaliana] &gt;gi|20196999|gb|AAC23756.2| expressed protein [Arabidopsis thaliana] &gt;gi|330252358|gb|AEC07452.1| cis-prenyltransferase [Arabidopsis thaliana]</Hit_def>
+  <Hit_accession>NP_565551</Hit_accession>
+  <Hit_len>303</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>621.313</Hsp_bit-score>
+      <Hsp_score>1601</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>303</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>303</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>303</Hsp_identity>
+      <Hsp_positive>303</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>303</Hsp_align-len>
+      <Hsp_qseq>MLSLLSSDSSLLSLLFLFLIPCLFITSYIGFPVFLLKLIGLIKIKAARDNEKRDEGTYVVREDGLQRELMPRHVAFILDGNRRWAKRAGLTTSQGHEAGAKRLIDIAELCFELGVHTVSAFAFSTENWGRDKIEIDNLMSLIQHYRNKSNIKFFHRSEVRVSVIGNKTKIPESLLKEIHEIEEATKGYKNKHLIMAVDYSGKFDIMHACKSLVKKSEKGLIREEDVDEALIERELLTNCSDFPSPDLMIRTSGEQRISNFFLWQLAYSELFFSPVFWPDFDKDKLLEALASYQRRERRFGCRV</Hsp_qseq>
+      <Hsp_hseq>MLSLLSSDSSLLSLLFLFLIPCLFITSYIGFPVFLLKLIGLIKIKAARDNEKRDEGTYVVREDGLQRELMPRHVAFILDGNRRWAKRAGLTTSQGHEAGAKRLIDIAELCFELGVHTVSAFAFSTENWGRDKIEIDNLMSLIQHYRNKSNIKFFHRSEVRVSVIGNKTKIPESLLKEIHEIEEATKGYKNKHLIMAVDYSGKFDIMHACKSLVKKSEKGLIREEDVDEALIERELLTNCSDFPSPDLMIRTSGEQRISNFFLWQLAYSELFFSPVFWPDFDKDKLLEALASYQRRERRFGCRV</Hsp_hseq>
+      <Hsp_midline>MLSLLSSDSSLLSLLFLFLIPCLFITSYIGFPVFLLKLIGLIKIKAARDNEKRDEGTYVVREDGLQRELMPRHVAFILDGNRRWAKRAGLTTSQGHEAGAKRLIDIAELCFELGVHTVSAFAFSTENWGRDKIEIDNLMSLIQHYRNKSNIKFFHRSEVRVSVIGNKTKIPESLLKEIHEIEEATKGYKNKHLIMAVDYSGKFDIMHACKSLVKKSEKGLIREEDVDEALIERELLTNCSDFPSPDLMIRTSGEQRISNFFLWQLAYSELFFSPVFWPDFDKDKLLEALASYQRRERRFGCRV</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gi|1032293921|gb|OAP08247.1|</Hit_id>
+  <Hit_def>cPT3 [Arabidopsis thaliana]</Hit_def>
+  <Hit_accession>OAP08247</Hit_accession>
+  <Hit_len>303</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>619.387</Hsp_bit-score>
+      <Hsp_score>1596</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>303</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>303</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>302</Hsp_identity>
+      <Hsp_positive>302</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>303</Hsp_align-len>
+      <Hsp_qseq>MLSLLSSDSSLLSLLFLFLIPCLFITSYIGFPVFLLKLIGLIKIKAARDNEKRDEGTYVVREDGLQRELMPRHVAFILDGNRRWAKRAGLTTSQGHEAGAKRLIDIAELCFELGVHTVSAFAFSTENWGRDKIEIDNLMSLIQHYRNKSNIKFFHRSEVRVSVIGNKTKIPESLLKEIHEIEEATKGYKNKHLIMAVDYSGKFDIMHACKSLVKKSEKGLIREEDVDEALIERELLTNCSDFPSPDLMIRTSGEQRISNFFLWQLAYSELFFSPVFWPDFDKDKLLEALASYQRRERRFGCRV</Hsp_qseq>
+      <Hsp_hseq>MLSLLSSDSSLLSLLFLFLIPCLFITSYIGFPVFLLKLIGLIKIKAARDNEKRDEGTYVVREDGLQRELMPRHVAFILDGNRRWAKRAGLTTSQGHEAGAKRLIDIAELCFELGVHTVSAFAFSTENWGRDKIEIDNLMSLIQHYRNKSNIKFFHRSEVRVSVIGNKTKIPESLLKEIHEIEEATKGYKNKHLIMAVDYSGKFDIMHACKILVKKSEKGLIREEDVDEALIERELLTNCSDFPSPDLMIRTSGEQRISNFFLWQLAYSELFFSPVFWPDFDKDKLLEALASYQRRERRFGCRV</Hsp_hseq>
+      <Hsp_midline>MLSLLSSDSSLLSLLFLFLIPCLFITSYIGFPVFLLKLIGLIKIKAARDNEKRDEGTYVVREDGLQRELMPRHVAFILDGNRRWAKRAGLTTSQGHEAGAKRLIDIAELCFELGVHTVSAFAFSTENWGRDKIEIDNLMSLIQHYRNKSNIKFFHRSEVRVSVIGNKTKIPESLLKEIHEIEEATKGYKNKHLIMAVDYSGKFDIMHACK LVKKSEKGLIREEDVDEALIERELLTNCSDFPSPDLMIRTSGEQRISNFFLWQLAYSELFFSPVFWPDFDKDKLLEALASYQRRERRFGCRV</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gi|1032295636|gb|OAP09962.1|</Hit_id>
+  <Hit_def>hypothetical protein AXX17_AT2G19050 [Arabidopsis thaliana]</Hit_def>
+  <Hit_accession>OAP09962</Hit_accession>
+  <Hit_len>302</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>526.554</Hsp_bit-score>
+      <Hsp_score>1355</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>303</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>302</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>260</Hsp_identity>
+      <Hsp_positive>279</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>306</Hsp_align-len>
+      <Hsp_qseq>MLSLLSSDSSLLSLLFLFLIPCLFITSYIGFPVFLLKLIGLIKIKAARD---NEKRDEGTYVVREDGLQRELMPRHVAFILDGNRRWAKRAGLTTSQGHEAGAKRLIDIAELCFELGVHTVSAFAFSTENWGRDKIEIDNLMSLIQHYRNKSNIKFFHRSEVRVSVIGNKTKIPESLLKEIHEIEEATKGYKNKHLIMAVDYSGKFDIMHACKSLVKKSEKGLIREEDVDEALIERELLTNCSDFPSPDLMIRTSGEQRISNFFLWQLAYSELFFSPVFWPDFDKDKLLEALASYQRRERRFGCRV</Hsp_qseq>
+      <Hsp_hseq>MLSLLST---LVALPFLFLIPCLFITSYICFPVFLTKLLGLIKFKAARDDDDNEKRDEATCVVREEELQRELMPRHVSFILDGNRRWAKRDGLTTAQGHEAGIKRIIEIAEVCFELGIHTVSAFAFSTENWGRDKFEVKCLMSLFNHYL-KSNIQYFQRKEVRVSVIGNKSKIPESLLRVINEIEEATKGYKNKHLIMAVDYSGKFDIMHACKSLVKKSEKGLIREEDVDEALIERELLTNCSDFPSPDLMIRTSGEQRISNFFLWQLAYTELFYSPVLWPDFDKDKLLEALASYQSRERRFGCRV</Hsp_hseq>
+      <Hsp_midline>MLSLLS+   L++L FLFLIPCLFITSYI FPVFL KL+GLIK KAARD   NEKRDE T VVRE+ LQRELMPRHV+FILDGNRRWAKR GLTT+QGHEAG KR+I+IAE+CFELG+HTVSAFAFSTENWGRDK E+  LMSL  HY  KSNI++F R EVRVSVIGNK+KIPESLL+ I+EIEEATKGYKNKHLIMAVDYSGKFDIMHACKSLVKKSEKGLIREEDVDEALIERELLTNCSDFPSPDLMIRTSGEQRISNFFLWQLAY+ELF+SPV WPDFDKDKLLEALASYQ RERRFGCRV</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gi|297825231|ref|XP_002880498.1|</Hit_id>
+  <Hit_def>cis-prenyltransferase [Arabidopsis lyrata subsp. lyrata] &gt;gi|297326337|gb|EFH56757.1| cis-prenyltransferase [Arabidopsis lyrata subsp. lyrata]</Hit_def>
+  <Hit_accession>XP_002880498</Hit_accession>
+  <Hit_len>292</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>502.671</Hsp_bit-score>
+      <Hsp_score>1293</Hsp_score>
+      <Hsp_evalue>2.03069e-178</Hsp_evalue>
+      <Hsp_query-from>21</Hsp_query-from>
+      <Hsp_query-to>303</Hsp_query-to>
+      <Hsp_hit-from>21</Hsp_hit-from>
+      <Hsp_hit-to>292</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>245</Hsp_identity>
+      <Hsp_positive>262</Hsp_positive>
+      <Hsp_gaps>17</Hsp_gaps>
+      <Hsp_align-len>286</Hsp_align-len>
+      <Hsp_qseq>PCLFITSYIGFPVFLLKLIGLIKIKAARD---NEKRDEGTYVVREDGLQRELMPRHVAFILDGNRRWAKRAGLTTSQGHEAGAKRLIDIAELCFELGVHTVSAFAFSTENWGRDKIEIDNLMSLIQHYRNKSNIKFFHRSEVRVSVIGNKTKIPESLLKEIHEIEEATKGYKNKHLIMAVDYSGKFDIMHACKSLVKKSEKGLIREEDVDEALIERELLTNCSDFPSPDLMIRTSGEQRISNFFLWQLAYSELFFSPVFWPDFDKDKLLEALASYQRRERRFGCRV</Hsp_qseq>
+      <Hsp_hseq>PCLFI-------------IGLIKIKAARDHGDNKKRDEGTYVVREEELQRELMPRHVAFILDGNRRWAKRAGLTTQQGHEAGAKRLVEIAELCFELGIHTVSAFVFSTENWGRDKIEVDNLMSLIQHYR-KSDIQFFHRSEIRVSVIGNQTNISEHLLQKLHEIEEATKGYKNKHLIVAIDYSGRFDIMHACKSLVKKSEKGLIREEDVDEALIERELLTNCSDFPSPDLMIRTSGEQRISNFFLWQLAYTELFFSPVFWPDFDKDKLLEALDSYQRRERRFGCRV</Hsp_hseq>
+      <Hsp_midline>PCLFI             IGLIKIKAARD   N+KRDEGTYVVRE+ LQRELMPRHVAFILDGNRRWAKRAGLTT QGHEAGAKRL++IAELCFELG+HTVSAF FSTENWGRDKIE+DNLMSLIQHYR KS+I+FFHRSE+RVSVIGN+T I E LL+++HEIEEATKGYKNKHLI+A+DYSG+FDIMHACKSLVKKSEKGLIREEDVDEALIERELLTNCSDFPSPDLMIRTSGEQRISNFFLWQLAY+ELFFSPVFWPDFDKDKLLEAL SYQRRERRFGCRV</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gi|1063699160|ref|NP_001318273.1|</Hit_id>
+  <Hit_def>Undecaprenyl pyrophosphate synthetase family protein [Arabidopsis thaliana] &gt;gi|1039012151|gb|AEC07451.2| Undecaprenyl pyrophosphate synthetase family protein [Arabidopsis thaliana]</Hit_def>
+  <Hit_accession>NP_001318273</Hit_accession>
+  <Hit_len>287</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>469.159</Hsp_bit-score>
+      <Hsp_score>1206</Hsp_score>
+      <Hsp_evalue>3.51711e-165</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>303</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>287</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>240</Hsp_identity>
+      <Hsp_positive>258</Hsp_positive>
+      <Hsp_gaps>22</Hsp_gaps>
+      <Hsp_align-len>306</Hsp_align-len>
+      <Hsp_qseq>MLSLLSSDSSLLSLLFLFLIPCLFITSYIGFPVFLLKLIGLIKIKAARD---NEKRDEGTYVVREDGLQRELMPRHVAFILDGNRRWAKRAGLTTSQGHEAGAKRLIDIAELCFELGVHTVSAFAFSTENWGRDKIEIDNLMSLIQHYRNKSNIKFFHRSEVRVSVIGNKTKIPESLLKEIHEIEEATKGYKNKHLIMAVDYSGKFDIMHACKSLVKKSEKGLIREEDVDEALIERELLTNCSDFPSPDLMIRTSGEQRISNFFLWQLAYSELFFSPVFWPDFDKDKLLEALASYQRRERRFGCRV</Hsp_qseq>
+      <Hsp_hseq>MLSLLST---LVALPFLFLIPCLFITSYICFPVFLTKLLGLIKFKAARDDDDNEKRDEATCVVREEELQRELMPRHVSFILDGNRRWAKRDGLTTAQGHEAGTKRIIEIAEVCFELGIHTVSAFAFSTENWGRDKFEVKCLMSLFNHYL-KSNIQYFQRKEVRVSVIGNKTKIPESLLKEIHEIEEATKATR---------------ISISSWHLVKKSEKGLIREEDVDEALIERELLTNCSDFPSPDLMIRTSGEQRISNFFLWQLAYTELFYSPVLWPDFDKDKLLEALASYQGRERRFGCRV</Hsp_hseq>
+      <Hsp_midline>MLSLLS+   L++L FLFLIPCLFITSYI FPVFL KL+GLIK KAARD   NEKRDE T VVRE+ LQRELMPRHV+FILDGNRRWAKR GLTT+QGHEAG KR+I+IAE+CFELG+HTVSAFAFSTENWGRDK E+  LMSL  HY  KSNI++F R EVRVSVIGNKTKIPESLLKEIHEIEEATK  +               I  +   LVKKSEKGLIREEDVDEALIERELLTNCSDFPSPDLMIRTSGEQRISNFFLWQLAY+ELF+SPV WPDFDKDKLLEALASYQ RERRFGCRV</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gi|1032280843|gb|OAO95171.1|</Hit_id>
+  <Hit_def>HEPS [Arabidopsis thaliana]</Hit_def>
+  <Hit_accession>OAO95171</Hit_accession>
+  <Hit_len>302</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>468.774</Hsp_bit-score>
+      <Hsp_score>1205</Hsp_score>
+      <Hsp_evalue>7.61236e-165</Hsp_evalue>
+      <Hsp_query-from>18</Hsp_query-from>
+      <Hsp_query-to>303</Hsp_query-to>
+      <Hsp_hit-from>15</Hsp_hit-from>
+      <Hsp_hit-to>302</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>225</Hsp_identity>
+      <Hsp_positive>253</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>289</Hsp_align-len>
+      <Hsp_qseq>FLIPCLFITSYIGFPVFLLKLIGLIKIKAARD---NEKRDEGTYVVREDGLQRELMPRHVAFILDGNRRWAKRAGLTTSQGHEAGAKRLIDIAELCFELGVHTVSAFAFSTENWGRDKIEIDNLMSLIQHYRNKSNIKFFHRSEVRVSVIGNKTKIPESLLKEIHEIEEATKGYKNKHLIMAVDYSGKFDIMHACKSLVKKSEKGLIREEDVDEALIERELLTNCSDFPSPDLMIRTSGEQRISNFFLWQLAYSELFFSPVFWPDFDKDKLLEALASYQRRERRFGCRV</Hsp_qseq>
+      <Hsp_hseq>FIISCFFITSHFCFTLSLPKILGLIKITSSRDDYDNEKRDEGTYVVGVEELQRELMPRHVAVIMDGNRRWAKRAGLLTSQGHEAGAKRLIEFSEFCFKLGIHTVSAFAFSTENWGRHKIEVKCLMSLIQHYL-KSKIQYFQREETRVSVIGNLTKIPESLLRTVQEIEEATRSYKKKHLILAIDYSGRLDILRACKSIVKKSEKGLIREEDVDEALIERELLTNCTEFPSPDLLIRTSGEQRISNFFLWQLAYTELFFSPVLWPDFDKDKLLEALVSYQRRERRFGCRV</Hsp_hseq>
+      <Hsp_midline>F+I C FITS+  F + L K++GLIKI ++RD   NEKRDEGTYVV  + LQRELMPRHVA I+DGNRRWAKRAGL TSQGHEAGAKRLI+ +E CF+LG+HTVSAFAFSTENWGR KIE+  LMSLIQHY  KS I++F R E RVSVIGN TKIPESLL+ + EIEEAT+ YK KHLI+A+DYSG+ DI+ ACKS+VKKSEKGLIREEDVDEALIERELLTNC++FPSPDL+IRTSGEQRISNFFLWQLAY+ELFFSPV WPDFDKDKLLEAL SYQRRERRFGCRV</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gi|18424144|ref|NP_568882.1|</Hit_id>
+  <Hit_def>Undecaprenyl pyrophosphate synthetase family protein [Arabidopsis thaliana] &gt;gi|75247639|sp|Q8RX73.1|DDPS3_ARATH RecName: Full=Dehydrodolichyl diphosphate synthase 3; Short=Dedol-PP synthase 3 &gt;gi|19699277|gb|AAL91250.1| AT5g58780/mzn1_230 [Arabidopsis thaliana] &gt;gi|28416467|gb|AAO42764.1| At5g58780/mzn1_230 [Arabidopsis thaliana] &gt;gi|332009714|gb|AED97097.1| Undecaprenyl pyrophosphate synthetase family protein [Arabidopsis thaliana]</Hit_def>
+  <Hit_accession>NP_568882</Hit_accession>
+  <Hit_len>302</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>465.692</Hsp_bit-score>
+      <Hsp_score>1197</Hsp_score>
+      <Hsp_evalue>1.46594e-163</Hsp_evalue>
+      <Hsp_query-from>22</Hsp_query-from>
+      <Hsp_query-to>303</Hsp_query-to>
+      <Hsp_hit-from>19</Hsp_hit-from>
+      <Hsp_hit-to>302</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>223</Hsp_identity>
+      <Hsp_positive>251</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>285</Hsp_align-len>
+      <Hsp_qseq>CLFITSYIGFPVFLLKLIGLIKIKAARD---NEKRDEGTYVVREDGLQRELMPRHVAFILDGNRRWAKRAGLTTSQGHEAGAKRLIDIAELCFELGVHTVSAFAFSTENWGRDKIEIDNLMSLIQHYRNKSNIKFFHRSEVRVSVIGNKTKIPESLLKEIHEIEEATKGYKNKHLIMAVDYSGKFDIMHACKSLVKKSEKGLIREEDVDEALIERELLTNCSDFPSPDLMIRTSGEQRISNFFLWQLAYSELFFSPVFWPDFDKDKLLEALASYQRRERRFGCRV</Hsp_qseq>
+      <Hsp_hseq>CFFITSHFWFPLSLPKILGFIKITSSRDDYDNEQRDEGTYVVGVEELQRELMPRHVAVIMDGNRRWAKRAGLLTSQGHEAGAKRLIEFSELCFKLGIHTVSAFAFSTENWGRHKIEVKCLMSLIQHYL-KSKIQYFQREETRVSVIGNLTKIPESLLRTVQEIEEATRSYKKKHLILAIDYSGRLDILRACKSIVKKSEKGLIREEDVDEALIERELLTNCTEFPSPDLLIRTSGEQRISNFFLWQLAYTELFFSPVLWPDFDKDKLLEALVSYQRRERRFGCRV</Hsp_hseq>
+      <Hsp_midline>C FITS+  FP+ L K++G IKI ++RD   NE+RDEGTYVV  + LQRELMPRHVA I+DGNRRWAKRAGL TSQGHEAGAKRLI+ +ELCF+LG+HTVSAFAFSTENWGR KIE+  LMSLIQHY  KS I++F R E RVSVIGN TKIPESLL+ + EIEEAT+ YK KHLI+A+DYSG+ DI+ ACKS+VKKSEKGLIREEDVDEALIERELLTNC++FPSPDL+IRTSGEQRISNFFLWQLAY+ELFFSPV WPDFDKDKLLEAL SYQRRERRFGCRV</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gi|727625272|ref|XP_010483482.1|</Hit_id>
+  <Hit_def>PREDICTED: dehydrodolichyl diphosphate synthase 3-like [Camelina sativa]</Hit_def>
+  <Hit_accession>XP_010483482</Hit_accession>
+  <Hit_len>303</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>460.685</Hsp_bit-score>
+      <Hsp_score>1184</Hsp_score>
+      <Hsp_evalue>1.32676e-161</Hsp_evalue>
+      <Hsp_query-from>16</Hsp_query-from>
+      <Hsp_query-to>303</Hsp_query-to>
+      <Hsp_hit-from>13</Hsp_hit-from>
+      <Hsp_hit-to>303</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>224</Hsp_identity>
+      <Hsp_positive>251</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>292</Hsp_align-len>
+      <Hsp_qseq>FLFLIPCLFITSYIGF-PVFLLKLIGLIKIKAARD---NEKRDEGTYVVREDGLQRELMPRHVAFILDGNRRWAKRAGLTTSQGHEAGAKRLIDIAELCFELGVHTVSAFAFSTENWGRDKIEIDNLMSLIQHYRNKSNIKFFHRSEVRVSVIGNKTKIPESLLKEIHEIEEATKGYKNKHLIMAVDYSGKFDIMHACKSLVKKSEKGLIREEDVDEALIERELLTNCSDFPSPDLMIRTSGEQRISNFFLWQLAYSELFFSPVFWPDFDKDKLLEALASYQRRERRFGCRV</Hsp_qseq>
+      <Hsp_hseq>FVFLISCCIITNHFSFRPLSLLKLLGFIKFTASRDDDNNYKRDEGTYVVGEEELQRELMPRHVAVIMDGNRRWAKREGLLTSQGHEAGAKRLIDFSELCFKLGIHTVSAFAFSTENWGRHKIEVKCLMSLIQHYL-KSKIQYFQREETRVSIIGNLTKIPESLRQTIHEIEEATKSYKKKHLVLAIDYSGRLDILRACKSIVHKSETGLIREEDVDEALIERELLTNSTEFPSPDLLIRTSGEQRISNFFLWQLAYTELFFSPVHWPDFDKDKLVEALVSYQRRERRFGCRV</Hsp_hseq>
+      <Hsp_midline>F+FLI C  IT++  F P+ LLKL+G IK  A+RD   N KRDEGTYVV E+ LQRELMPRHVA I+DGNRRWAKR GL TSQGHEAGAKRLID +ELCF+LG+HTVSAFAFSTENWGR KIE+  LMSLIQHY  KS I++F R E RVS+IGN TKIPESL + IHEIEEATK YK KHL++A+DYSG+ DI+ ACKS+V KSE GLIREEDVDEALIERELLTN ++FPSPDL+IRTSGEQRISNFFLWQLAY+ELFFSPV WPDFDKDKL+EAL SYQRRERRFGCRV</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gi|727425209|ref|XP_010454255.1|</Hit_id>
+  <Hit_def>PREDICTED: dehydrodolichyl diphosphate synthase 3-like [Camelina sativa]</Hit_def>
+  <Hit_accession>XP_010454255</Hit_accession>
+  <Hit_len>303</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>458.759</Hsp_bit-score>
+      <Hsp_score>1179</Hsp_score>
+      <Hsp_evalue>6.14892e-161</Hsp_evalue>
+      <Hsp_query-from>16</Hsp_query-from>
+      <Hsp_query-to>303</Hsp_query-to>
+      <Hsp_hit-from>13</Hsp_hit-from>
+      <Hsp_hit-to>303</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>222</Hsp_identity>
+      <Hsp_positive>253</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>292</Hsp_align-len>
+      <Hsp_qseq>FLFLIPCLFITSYIGF-PVFLLKLIGLIKIKAARDNE---KRDEGTYVVREDGLQRELMPRHVAFILDGNRRWAKRAGLTTSQGHEAGAKRLIDIAELCFELGVHTVSAFAFSTENWGRDKIEIDNLMSLIQHYRNKSNIKFFHRSEVRVSVIGNKTKIPESLLKEIHEIEEATKGYKNKHLIMAVDYSGKFDIMHACKSLVKKSEKGLIREEDVDEALIERELLTNCSDFPSPDLMIRTSGEQRISNFFLWQLAYSELFFSPVFWPDFDKDKLLEALASYQRRERRFGCRV</Hsp_qseq>
+      <Hsp_hseq>FVFLISCCIITNHFSFRPLSLLKLLGVIKFTASRDDDDHYKRDEGTYVVGEEELQRELMPRHVAVIMDGNRRWAKREGLLTSQGHEAGAKRLIEFSELCFKLGIHTVSAFAFSTENWGRHKIEVKCLMSLIQHYL-KSKIQYFQREETRVSIIGNLTKIPESLRQTIHEIEEATKGYKKKHLILAIDYSGRLDILRACKSIVHKSETGLIREEDVDEAMIERELLTNCTEFSSPDLLIRTSGEQRISNFFLWQLAYTELFFSPVHWPDFDKGKLVEALVSYQRRERRFGCRV</Hsp_hseq>
+      <Hsp_midline>F+FLI C  IT++  F P+ LLKL+G+IK  A+RD++   KRDEGTYVV E+ LQRELMPRHVA I+DGNRRWAKR GL TSQGHEAGAKRLI+ +ELCF+LG+HTVSAFAFSTENWGR KIE+  LMSLIQHY  KS I++F R E RVS+IGN TKIPESL + IHEIEEATKGYK KHLI+A+DYSG+ DI+ ACKS+V KSE GLIREEDVDEA+IERELLTNC++F SPDL+IRTSGEQRISNFFLWQLAY+ELFFSPV WPDFDK KL+EAL SYQRRERRFGCRV</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gi|727539813|ref|XP_010443628.1|</Hit_id>
+  <Hit_def>PREDICTED: dehydrodolichyl diphosphate synthase 3 [Camelina sativa]</Hit_def>
+  <Hit_accession>XP_010443628</Hit_accession>
+  <Hit_len>302</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>456.062</Hsp_bit-score>
+      <Hsp_score>1172</Hsp_score>
+      <Hsp_evalue>7.53055e-160</Hsp_evalue>
+      <Hsp_query-from>16</Hsp_query-from>
+      <Hsp_query-to>303</Hsp_query-to>
+      <Hsp_hit-from>13</Hsp_hit-from>
+      <Hsp_hit-to>302</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>220</Hsp_identity>
+      <Hsp_positive>249</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>291</Hsp_align-len>
+      <Hsp_qseq>FLFLIPCLFITSYIGFPVFLLKLIGLIKIKAARD---NEKRDEGTYVVREDGLQRELMPRHVAFILDGNRRWAKRAGLTTSQGHEAGAKRLIDIAELCFELGVHTVSAFAFSTENWGRDKIEIDNLMSLIQHYRNKSNIKFFHRSEVRVSVIGNKTKIPESLLKEIHEIEEATKGYKNKHLIMAVDYSGKFDIMHACKSLVKKSEKGLIREEDVDEALIERELLTNCSDFPSPDLMIRTSGEQRISNFFLWQLAYSELFFSPVFWPDFDKDKLLEALASYQRRERRFGCRV</Hsp_qseq>
+      <Hsp_hseq>FVFLISFFIITSHFSFPLSLLKLLGFIKFTASRDDDDNYKRDEGTYVVGEEELQRELMPRHVAVIMDGNRRWAKREGLLTSQGHEAGAKRLIEFSELCFKLGIHTVSAFAFSTENWGRHKIEVKCLMSLIQHYL-KSKIQYFQREETRVSIIGNLTKIPESLRQTIHEIEEATKSYKKKHLILAIDYSGRLDILRACKSIVHKSEAGLIRKEDVDEAMIERELLTSCTEFSSPDLLIRTSGEQRISNFFLWQLAYTELFFSSVLWPDFDKDKLVEALVSYQRRERRFGCRV</Hsp_hseq>
+      <Hsp_midline>F+FLI    ITS+  FP+ LLKL+G IK  A+RD   N KRDEGTYVV E+ LQRELMPRHVA I+DGNRRWAKR GL TSQGHEAGAKRLI+ +ELCF+LG+HTVSAFAFSTENWGR KIE+  LMSLIQHY  KS I++F R E RVS+IGN TKIPESL + IHEIEEATK YK KHLI+A+DYSG+ DI+ ACKS+V KSE GLIR+EDVDEA+IERELLT+C++F SPDL+IRTSGEQRISNFFLWQLAY+ELFFS V WPDFDKDKL+EAL SYQRRERRFGCRV</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>gi|565475920|ref|XP_006295601.1|</Hit_id>
+  <Hit_def>hypothetical protein CARUB_v10024712mg [Capsella rubella] &gt;gi|482564309|gb|EOA28499.1| hypothetical protein CARUB_v10024712mg [Capsella rubella]</Hit_def>
+  <Hit_accession>XP_006295601</Hit_accession>
+  <Hit_len>304</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>454.907</Hsp_bit-score>
+      <Hsp_score>1169</Hsp_score>
+      <Hsp_evalue>2.58372e-159</Hsp_evalue>
+      <Hsp_query-from>20</Hsp_query-from>
+      <Hsp_query-to>303</Hsp_query-to>
+      <Hsp_hit-from>17</Hsp_hit-from>
+      <Hsp_hit-to>304</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>224</Hsp_identity>
+      <Hsp_positive>260</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>289</Hsp_align-len>
+      <Hsp_qseq>IPCLFITSYIGFPVFLLKLIGLIKIKAAR----DNEKR-DEGTYVVREDGLQRELMPRHVAFILDGNRRWAKRAGLTTSQGHEAGAKRLIDIAELCFELGVHTVSAFAFSTENWGRDKIEIDNLMSLIQHYRNKSNIKFFHRSEVRVSVIGNKTKIPESLLKEIHEIEEATKGYKNKHLIMAVDYSGKFDIMHACKSLVKKSEKGLIREEDVDEALIERELLTNCSDFPSPDLMIRTSGEQRISNFFLWQLAYSELFFSPVFWPDFDKDKLLEALASYQRRERRFGCRV</Hsp_qseq>
+      <Hsp_hseq>VPCLFMTSYVCFPLLLPKLLGLIRIKAARNDHGDNEERCDERTYVVREEELQRERMPSHVALILDGNRRWAKRAGLLTSQGHEAGAKRLTEIAELCFEMGIHTVSAFAFSTENWGRDKVEVNCLMSLLQHYLS-SNINDFQRKEIRISVIGNKTKIPKSLIQVINEIEEATKGYKNKHLILAIDYSGRFDLTHACKSIVKKSKEGLIREEDVDETLIQRELLTSCTDFPSPDLLIRTSGEQRISNFFLWQLAYTELFFSPVLWPDFDKGKLIEALASYQRRERRFGVQA</Hsp_hseq>
+      <Hsp_midline>+PCLF+TSY+ FP+ L KL+GLI+IKAAR    DNE+R DE TYVVRE+ LQRE MP HVA ILDGNRRWAKRAGL TSQGHEAGAKRL +IAELCFE+G+HTVSAFAFSTENWGRDK+E++ LMSL+QHY + SNI  F R E+R+SVIGNKTKIP+SL++ I+EIEEATKGYKNKHLI+A+DYSG+FD+ HACKS+VKKS++GLIREEDVDE LI+RELLT+C+DFPSPDL+IRTSGEQRISNFFLWQLAY+ELFFSPV WPDFDK KL+EALASYQRRERRFG + </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>gi|567177528|ref|XP_006401044.1|</Hit_id>
+  <Hit_def>hypothetical protein EUTSA_v10014272mg [Eutrema salsugineum] &gt;gi|557102134|gb|ESQ42497.1| hypothetical protein EUTSA_v10014272mg [Eutrema salsugineum]</Hit_def>
+  <Hit_accession>XP_006401044</Hit_accession>
+  <Hit_len>290</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>442.965</Hsp_bit-score>
+      <Hsp_score>1138</Hsp_score>
+      <Hsp_evalue>7.57626e-155</Hsp_evalue>
+      <Hsp_query-from>25</Hsp_query-from>
+      <Hsp_query-to>303</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>290</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>216</Hsp_identity>
+      <Hsp_positive>248</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>287</Hsp_align-len>
+      <Hsp_qseq>ITSYIGFPVFLLKLIGLIKIKAARD---NEKR-DEGTYVVRED----GLQRELMPRHVAFILDGNRRWAKRAGLTTSQGHEAGAKRLIDIAELCFELGVHTVSAFAFSTENWGRDKIEIDNLMSLIQHYRNKSNIKFFHRSEVRVSVIGNKTKIPESLLKEIHEIEEATKGYKNKHLIMAVDYSGKFDIMHACKSLVKKSEKGLIREEDVDEALIERELLTNCSDFPSPDLMIRTSGEQRISNFFLWQLAYSELFFSPVFWPDFDKDKLLEALASYQRRERRFGCRV</Hsp_qseq>
+      <Hsp_hseq>VKNNICFPLPVLKILRFIKPPACQDDDHNEKRSDEGIYVVGEEEQPTGLRRELMPRHVAVIMDGNRRWAKQAGLMTAQGHEAGAKRLIEFTELCFKLGIHTVSAFAFSTENWGRHKIEVKGLMSLIQHYLS-SKIQYFQREETRVSVIGNLTKIPESLLQTIHEIEEATKSYKNRHLILAIDYSGRFDMVRACKSIVKKSEKGLIREEDVDEALIDRELLTNCTEFPSPDLMIRTSGEQRISNFFLWQLAYTELFFSPVLWPDFNKDSLLEALTSYQRRERRFGCRV</Hsp_hseq>
+      <Hsp_midline>+ + I FP+ +LK++  IK  A +D   NEKR DEG YVV E+    GL+RELMPRHVA I+DGNRRWAK+AGL T+QGHEAGAKRLI+  ELCF+LG+HTVSAFAFSTENWGR KIE+  LMSLIQHY + S I++F R E RVSVIGN TKIPESLL+ IHEIEEATK YKN+HLI+A+DYSG+FD++ ACKS+VKKSEKGLIREEDVDEALI+RELLTNC++FPSPDLMIRTSGEQRISNFFLWQLAY+ELFFSPV WPDF+KD LLEAL SYQRRERRFGCRV</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>gi|565438518|ref|XP_006282270.1|</Hit_id>
+  <Hit_def>hypothetical protein CARUB_v10028549mg [Capsella rubella] &gt;gi|482550974|gb|EOA15168.1| hypothetical protein CARUB_v10028549mg [Capsella rubella]</Hit_def>
+  <Hit_accession>XP_006282270</Hit_accession>
+  <Hit_len>303</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>438.728</Hsp_bit-score>
+      <Hsp_score>1127</Hsp_score>
+      <Hsp_evalue>6.21914e-153</Hsp_evalue>
+      <Hsp_query-from>16</Hsp_query-from>
+      <Hsp_query-to>303</Hsp_query-to>
+      <Hsp_hit-from>13</Hsp_hit-from>
+      <Hsp_hit-to>303</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>219</Hsp_identity>
+      <Hsp_positive>250</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>292</Hsp_align-len>
+      <Hsp_qseq>FLFLIPC-LFITSYIGFPVFLLKLIGLIKIKAARD---NEKRDEGTYVVREDGLQRELMPRHVAFILDGNRRWAKRAGLTTSQGHEAGAKRLIDIAELCFELGVHTVSAFAFSTENWGRDKIEIDNLMSLIQHYRNKSNIKFFHRSEVRVSVIGNKTKIPESLLKEIHEIEEATKGYKNKHLIMAVDYSGKFDIMHACKSLVKKSEKGLIREEDVDEALIERELLTNCSDFPSPDLMIRTSGEQRISNFFLWQLAYSELFFSPVFWPDFDKDKLLEALASYQRRERRFGCRV</Hsp_qseq>
+      <Hsp_hseq>FVFLISFFIIITSRCSFSLSLLNLLGFIKFTALKDDDDNYKRDEGTYVVREEELQRELMPKHVAVIMDGNRRWAKRAGLLTSQGHEAGAKRLIQFSELCFKLGIHTVSAFAFSTENWGRHKVEVKCLMSLIQHYL-KSKIQYFQREETRVSVIGNLTKIPESLRRTIHEIEAATKSYKKKHLILAIDYSGRLDILRACKSIVKKSEKGLIQEEDVDEALIERELLTDCTEFSSPDLLIRTSGEQRISNFFLWQLAYTELFFSPVLWPDFDKDKLVEALASFQRRERRFGCQI</Hsp_hseq>
+      <Hsp_midline>F+FLI   + ITS   F + LL L+G IK  A +D   N KRDEGTYVVRE+ LQRELMP+HVA I+DGNRRWAKRAGL TSQGHEAGAKRLI  +ELCF+LG+HTVSAFAFSTENWGR K+E+  LMSLIQHY  KS I++F R E RVSVIGN TKIPESL + IHEIE ATK YK KHLI+A+DYSG+ DI+ ACKS+VKKSEKGLI+EEDVDEALIERELLT+C++F SPDL+IRTSGEQRISNFFLWQLAY+ELFFSPV WPDFDKDKL+EALAS+QRRERRFGC++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>gi|297825229|ref|XP_002880497.1|</Hit_id>
+  <Hit_def>hypothetical protein ARALYDRAFT_481210 [Arabidopsis lyrata subsp. lyrata] &gt;gi|297326336|gb|EFH56756.1| hypothetical protein ARALYDRAFT_481210 [Arabidopsis lyrata subsp. lyrata]</Hit_def>
+  <Hit_accession>XP_002880497</Hit_accession>
+  <Hit_len>233</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>426.017</Hsp_bit-score>
+      <Hsp_score>1094</Hsp_score>
+      <Hsp_evalue>4.61091e-149</Hsp_evalue>
+      <Hsp_query-from>70</Hsp_query-from>
+      <Hsp_query-to>303</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>233</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>202</Hsp_identity>
+      <Hsp_positive>220</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>234</Hsp_align-len>
+      <Hsp_qseq>MPRHVAFILDGNRRWAKRAGLTTSQGHEAGAKRLIDIAELCFELGVHTVSAFAFSTENWGRDKIEIDNLMSLIQHYRNKSNIKFFHRSEVRVSVIGNKTKIPESLLKEIHEIEEATKGYKNKHLIMAVDYSGKFDIMHACKSLVKKSEKGLIREEDVDEALIERELLTNCSDFPSPDLMIRTSGEQRISNFFLWQLAYSELFFSPVFWPDFDKDKLLEALASYQRRERRFGCRV</Hsp_qseq>
+      <Hsp_hseq>MPRHVAFILDGNRRWAKRDGLLTSQGHEAGAKRFIEIAELCFELGIHTVSAFAFSTGNWGRDKDEVKWLMSLFQH-QLKSNSQYFHRKEIRVSVIGNQTKIDESILQEIHEIEEATKGYKNKHLIVAIDYSGRFDIMHACKSLVKKSERGLIREQDVDEALIERELLTNCSDFPSPDLMIRTSGEQRISDFFLWQLAYTELFFSPVLWPDFDKDKLLEALASYQRRERRFGCRI</Hsp_hseq>
+      <Hsp_midline>MPRHVAFILDGNRRWAKR GL TSQGHEAGAKR I+IAELCFELG+HTVSAFAFST NWGRDK E+  LMSL QH + KSN ++FHR E+RVSVIGN+TKI ES+L+EIHEIEEATKGYKNKHLI+A+DYSG+FDIMHACKSLVKKSE+GLIRE+DVDEALIERELLTNCSDFPSPDLMIRTSGEQRIS+FFLWQLAY+ELFFSPV WPDFDKDKLLEALASYQRRERRFGCR+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>gi|674234631|gb|KFK27396.1|</Hit_id>
+  <Hit_def>hypothetical protein AALP_AA8G377600 [Arabis alpina]</Hit_def>
+  <Hit_accession>KFK27396</Hit_accession>
+  <Hit_len>288</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>414.846</Hsp_bit-score>
+      <Hsp_score>1065</Hsp_score>
+      <Hsp_evalue>9.2708e-144</Hsp_evalue>
+      <Hsp_query-from>25</Hsp_query-from>
+      <Hsp_query-to>303</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>288</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>203</Hsp_identity>
+      <Hsp_positive>236</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>289</Hsp_align-len>
+      <Hsp_qseq>ITSYIGFPVFLLKLIGLIKIKAAR------DNEKRDEGTYVVRED----GLQRELMPRHVAFILDGNRRWAKRAGLTTSQGHEAGAKRLIDIAELCFELGVHTVSAFAFSTENWGRDKIEIDNLMSLIQHYRNKSNIKFFHRSEVRVSVIGNKTKIPESLLKEIHEIEEATKGYKNKHLIMAVDYSGKFDIMHACKSLVKKSEKGLIREEDVDEALIERELLTNCSDFPSPDLMIRTSGEQRISNFFLWQLAYSELFFSPVFWPDFDKDKLLEALASYQRRERRFGCRV</Hsp_qseq>
+      <Hsp_hseq>MSRRLSVPLSLTNFIRLTKIIASQYDDKEERNEKRDEGAYVVGEKDLPKGLQKELMPRHVAVIMDGNRRWAKQAGLLTSQGHKAGAKRLIEIAELCFEMGVDTVSAFAFSTENWGRDKMEVNFLMSLFRKYL-KSKIRYVQSKEIRVSVIGNRAKIPESLVGLIKEAEEATKCYKKKHLIVAIDYSGRFDILSACKSLMKKSEQGLIREEDVDETMFERELLTKCTELPSPDLLIRTSGEQRISNFFLWQLAYTELFFSPVLWPDFDKEKFLEALVSYQRRERRFGCRV</Hsp_hseq>
+      <Hsp_midline>++  +  P+ L   I L KI A++       NEKRDEG YVV E     GLQ+ELMPRHVA I+DGNRRWAK+AGL TSQGH+AGAKRLI+IAELCFE+GV TVSAFAFSTENWGRDK+E++ LMSL + Y  KS I++    E+RVSVIGN+ KIPESL+  I E EEATK YK KHLI+A+DYSG+FDI+ ACKSL+KKSE+GLIREEDVDE + ERELLT C++ PSPDL+IRTSGEQRISNFFLWQLAY+ELFFSPV WPDFDK+K LEAL SYQRRERRFGCRV</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>gi|674900244|emb|CDY32684.1|</Hit_id>
+  <Hit_def>BnaA02g07460D [Brassica napus]</Hit_def>
+  <Hit_accession>CDY32684</Hit_accession>
+  <Hit_len>289</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>407.142</Hsp_bit-score>
+      <Hsp_score>1045</Hsp_score>
+      <Hsp_evalue>9.49695e-141</Hsp_evalue>
+      <Hsp_query-from>45</Hsp_query-from>
+      <Hsp_query-to>303</Hsp_query-to>
+      <Hsp_hit-from>28</Hsp_hit-from>
+      <Hsp_hit-to>289</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>194</Hsp_identity>
+      <Hsp_positive>224</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>263</Hsp_align-len>
+      <Hsp_qseq>KAARDNEKRDEGTYVVRED----GLQRELMPRHVAFILDGNRRWAKRAGLTTSQGHEAGAKRLIDIAELCFELGVHTVSAFAFSTENWGRDKIEIDNLMSLIQHYRNKSNIKFFHRSEVRVSVIGNKTKIPESLLKEIHEIEEATKGYKNKHLIMAVDYSGKFDIMHACKSLVKKSEKGLIREEDVDEALIERELLTNCSDFPSPDLMIRTSGEQRISNFFLWQLAYSELFFSPVFWPDFDKDKLLEALASYQRRERRFGCRV</Hsp_qseq>
+      <Hsp_hseq>KSLKDEKEIDEGTYVAGEEETPKGLLREQMPRHVAVIMDGNRRWAERAGLLTSQGHEAGAKRLIEFAELCFKLGIETVSAFAFSTENWGRHKIEVNCLMSLFQRYL-KSKIQFFQSEEIRVSVIGNLEKIPESLLGTIKETEEATKRYKKKHLILAIDYSGRFDILHACKSIVKKSQQGLIREEDVDQTLFERELLTKCTEFPSPDLLIRTSGEQRISNFLLWQLAYTELFFSPVLWPDFDKDRVIEALVSYQRRERRFGCRI</Hsp_hseq>
+      <Hsp_midline>K+ +D ++ DEGTYV  E+    GL RE MPRHVA I+DGNRRWA+RAGL TSQGHEAGAKRLI+ AELCF+LG+ TVSAFAFSTENWGR KIE++ LMSL Q Y  KS I+FF   E+RVSVIGN  KIPESLL  I E EEATK YK KHLI+A+DYSG+FDI+HACKS+VKKS++GLIREEDVD+ L ERELLT C++FPSPDL+IRTSGEQRISNF LWQLAY+ELFFSPV WPDFDKD+++EAL SYQRRERRFGCR+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>gi|674234630|gb|KFK27395.1|</Hit_id>
+  <Hit_def>hypothetical protein AALP_AA8G377500 [Arabis alpina]</Hit_def>
+  <Hit_accession>KFK27395</Hit_accession>
+  <Hit_len>289</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>406.371</Hsp_bit-score>
+      <Hsp_score>1043</Hsp_score>
+      <Hsp_evalue>2.27967e-140</Hsp_evalue>
+      <Hsp_query-from>48</Hsp_query-from>
+      <Hsp_query-to>303</Hsp_query-to>
+      <Hsp_hit-from>31</Hsp_hit-from>
+      <Hsp_hit-to>289</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>195</Hsp_identity>
+      <Hsp_positive>222</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>260</Hsp_align-len>
+      <Hsp_qseq>RDNEKRDEGTYVVRED----GLQRELMPRHVAFILDGNRRWAKRAGLTTSQGHEAGAKRLIDIAELCFELGVHTVSAFAFSTENWGRDKIEIDNLMSLIQHYRNKSNIKFFHRSEVRVSVIGNKTKIPESLLKEIHEIEEATKGYKNKHLIMAVDYSGKFDIMHACKSLVKKSEKGLIREEDVDEALIERELLTNCSDFPSPDLMIRTSGEQRISNFFLWQLAYSELFFSPVFWPDFDKDKLLEALASYQRRERRFGCRV</Hsp_qseq>
+      <Hsp_hseq>KDEKENDEETYVAGEKELPKGLRRELMPRHVSVIMDGNRRWAKQAGLLTSQGHEAGAKRLIEFAELCFELGIETVSAFAFSTENWGRHKIEVKCLMSLIQRYL-KSKIQYFQSEEIRVSVIGNLAKIPKSLLRIIKEIEEATKCYKKKHLILAIDYSGRFDILRACKSIVKKSEQGLIREEDVDETMFERELLTKCTELPSPDLLIRTSGEQRISNFFLWQLAYTELFFSPVLWPDFDKEKFLEALVSYQRRERRFGCRV</Hsp_hseq>
+      <Hsp_midline>+D ++ DE TYV  E     GL+RELMPRHV+ I+DGNRRWAK+AGL TSQGHEAGAKRLI+ AELCFELG+ TVSAFAFSTENWGR KIE+  LMSLIQ Y  KS I++F   E+RVSVIGN  KIP+SLL+ I EIEEATK YK KHLI+A+DYSG+FDI+ ACKS+VKKSE+GLIREEDVDE + ERELLT C++ PSPDL+IRTSGEQRISNFFLWQLAY+ELFFSPV WPDFDK+K LEAL SYQRRERRFGCRV</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>gi|297796813|ref|XP_002866291.1|</Hit_id>
+  <Hit_def>hypothetical protein ARALYDRAFT_496003 [Arabidopsis lyrata subsp. lyrata] &gt;gi|297312126|gb|EFH42550.1| hypothetical protein ARALYDRAFT_496003 [Arabidopsis lyrata subsp. lyrata]</Hit_def>
+  <Hit_accession>XP_002866291</Hit_accession>
+  <Hit_len>289</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>405.216</Hsp_bit-score>
+      <Hsp_score>1040</Hsp_score>
+      <Hsp_evalue>6.6637e-140</Hsp_evalue>
+      <Hsp_query-from>48</Hsp_query-from>
+      <Hsp_query-to>303</Hsp_query-to>
+      <Hsp_hit-from>31</Hsp_hit-from>
+      <Hsp_hit-to>289</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>196</Hsp_identity>
+      <Hsp_positive>225</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>260</Hsp_align-len>
+      <Hsp_qseq>RDNEKRDEGTYVVRED----GLQRELMPRHVAFILDGNRRWAKRAGLTTSQGHEAGAKRLIDIAELCFELGVHTVSAFAFSTENWGRDKIEIDNLMSLIQHYRNKSNIKFFHRSEVRVSVIGNKTKIPESLLKEIHEIEEATKGYKNKHLIMAVDYSGKFDIMHACKSLVKKSEKGLIREEDVDEALIERELLTNCSDFPSPDLMIRTSGEQRISNFFLWQLAYSELFFSPVFWPDFDKDKLLEALASYQRRERRFGCRV</Hsp_qseq>
+      <Hsp_hseq>KDKKKIDKGTYVVGEEEPPKGLRRELMPRHVAVIMDGNRRWAKQAGLLTSQGYEAGAKRLIEFAELCFKLGINTVSAFAFSTENWGRHKIEVKCLMYLFQRYL-KSKIQFFQSKEIRVSVIGNLAKIPESLLGIITEIEDATKSYKKKHLILAIDYSGRFDILRACKSIVKKSEQGLIREEEVDETLLERELQTKCTEFPSPDLLIRTSGEQRISNFFLWQLAYTELFFSPVLWPDFDKDKLLDALDSYQRRERRFGCRV</Hsp_hseq>
+      <Hsp_midline>+D +K D+GTYVV E+    GL+RELMPRHVA I+DGNRRWAK+AGL TSQG+EAGAKRLI+ AELCF+LG++TVSAFAFSTENWGR KIE+  LM L Q Y  KS I+FF   E+RVSVIGN  KIPESLL  I EIE+ATK YK KHLI+A+DYSG+FDI+ ACKS+VKKSE+GLIREE+VDE L+EREL T C++FPSPDL+IRTSGEQRISNFFLWQLAY+ELFFSPV WPDFDKDKLL+AL SYQRRERRFGCRV</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>gi|923533395|ref|XP_013704202.1|</Hit_id>
+  <Hit_def>PREDICTED: dehydrodolichyl diphosphate synthase 4-like [Brassica napus]</Hit_def>
+  <Hit_accession>XP_013704202</Hit_accession>
+  <Hit_len>289</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>404.831</Hsp_bit-score>
+      <Hsp_score>1039</Hsp_score>
+      <Hsp_evalue>9.99061e-140</Hsp_evalue>
+      <Hsp_query-from>45</Hsp_query-from>
+      <Hsp_query-to>303</Hsp_query-to>
+      <Hsp_hit-from>28</Hsp_hit-from>
+      <Hsp_hit-to>289</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>194</Hsp_identity>
+      <Hsp_positive>223</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>263</Hsp_align-len>
+      <Hsp_qseq>KAARDNEKRDEGTYVVREDG----LQRELMPRHVAFILDGNRRWAKRAGLTTSQGHEAGAKRLIDIAELCFELGVHTVSAFAFSTENWGRDKIEIDNLMSLIQHYRNKSNIKFFHRSEVRVSVIGNKTKIPESLLKEIHEIEEATKGYKNKHLIMAVDYSGKFDIMHACKSLVKKSEKGLIREEDVDEALIERELLTNCSDFPSPDLMIRTSGEQRISNFFLWQLAYSELFFSPVFWPDFDKDKLLEALASYQRRERRFGCRV</Hsp_qseq>
+      <Hsp_hseq>KSLKDEKEIDEGTYVAGEEGTPKGLLRELMPRHVAVIMDGNRRWAVRAGLLTSQGHEAGAKRLIEFAELCFKLGIETVSAFAFSTENWGRHKIEVNCLMSLFQRYL-KSKIQFFQSEEIRVSVIGNLEKIPESLLGTIKETEQATKRYKKKHLILAIDYSGRSDILHACKSIVKKSQQGLIREEDVDETLFERELLTKCTEFPSPDLLIRTSGEQRISNFLLWQLAYTELFFSPVLWPDFDKDRVIEALVSYQRRERRFGCRI</Hsp_hseq>
+      <Hsp_midline>K+ +D ++ DEGTYV  E+G    L RELMPRHVA I+DGNRRWA RAGL TSQGHEAGAKRLI+ AELCF+LG+ TVSAFAFSTENWGR KIE++ LMSL Q Y  KS I+FF   E+RVSVIGN  KIPESLL  I E E+ATK YK KHLI+A+DYSG+ DI+HACKS+VKKS++GLIREEDVDE L ERELLT C++FPSPDL+IRTSGEQRISNF LWQLAY+ELFFSPV WPDFDKD+++EAL SYQRRERRFGCR+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>gi|685271389|ref|XP_009126737.1|</Hit_id>
+  <Hit_def>PREDICTED: dehydrodolichyl diphosphate synthase 4-like isoform X1 [Brassica rapa]</Hit_def>
+  <Hit_accession>XP_009126737</Hit_accession>
+  <Hit_len>289</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>404.06</Hsp_bit-score>
+      <Hsp_score>1037</Hsp_score>
+      <Hsp_evalue>1.61711e-139</Hsp_evalue>
+      <Hsp_query-from>45</Hsp_query-from>
+      <Hsp_query-to>303</Hsp_query-to>
+      <Hsp_hit-from>28</Hsp_hit-from>
+      <Hsp_hit-to>289</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>193</Hsp_identity>
+      <Hsp_positive>223</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>263</Hsp_align-len>
+      <Hsp_qseq>KAARDNEKRDEGTYVVRED----GLQRELMPRHVAFILDGNRRWAKRAGLTTSQGHEAGAKRLIDIAELCFELGVHTVSAFAFSTENWGRDKIEIDNLMSLIQHYRNKSNIKFFHRSEVRVSVIGNKTKIPESLLKEIHEIEEATKGYKNKHLIMAVDYSGKFDIMHACKSLVKKSEKGLIREEDVDEALIERELLTNCSDFPSPDLMIRTSGEQRISNFFLWQLAYSELFFSPVFWPDFDKDKLLEALASYQRRERRFGCRV</Hsp_qseq>
+      <Hsp_hseq>KSLKDEKEIDEGTYVAGEEETPKGLLREQMPRHVAVIMDGNRRWAERAGLLTSQGHEAGAKRLIEFAELCFKLGIETVSAFAFSTENWGRHKIEVNCLMSLFQRYL-KSKIQFFQSEEIRVSVIGNLEKIPESLLGTIKETEEATKRYKKKHLILAIDYSGRSDILHACKSIVKKSQQGLIREEDVDQTLFERELLTKCTEFPSPDLLIRTSGEQRISNFLLWQLAYTELFFSPVLWPDFDKDRVIEALVSYQRRERRFGCRI</Hsp_hseq>
+      <Hsp_midline>K+ +D ++ DEGTYV  E+    GL RE MPRHVA I+DGNRRWA+RAGL TSQGHEAGAKRLI+ AELCF+LG+ TVSAFAFSTENWGR KIE++ LMSL Q Y  KS I+FF   E+RVSVIGN  KIPESLL  I E EEATK YK KHLI+A+DYSG+ DI+HACKS+VKKS++GLIREEDVD+ L ERELLT C++FPSPDL+IRTSGEQRISNF LWQLAY+ELFFSPV WPDFDKD+++EAL SYQRRERRFGCR+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>21</Hit_num>
+  <Hit_id>gi|923526170|ref|XP_013683455.1|</Hit_id>
+  <Hit_def>PREDICTED: dehydrodolichyl diphosphate synthase 4-like [Brassica napus] &gt;gi|674930575|emb|CDY02836.1| BnaC02g10530D [Brassica napus]</Hit_def>
+  <Hit_accession>XP_013683455</Hit_accession>
+  <Hit_len>289</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>404.06</Hsp_bit-score>
+      <Hsp_score>1037</Hsp_score>
+      <Hsp_evalue>1.82401e-139</Hsp_evalue>
+      <Hsp_query-from>45</Hsp_query-from>
+      <Hsp_query-to>303</Hsp_query-to>
+      <Hsp_hit-from>28</Hsp_hit-from>
+      <Hsp_hit-to>289</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>194</Hsp_identity>
+      <Hsp_positive>222</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>263</Hsp_align-len>
+      <Hsp_qseq>KAARDNEKRDEGTYVVREDG----LQRELMPRHVAFILDGNRRWAKRAGLTTSQGHEAGAKRLIDIAELCFELGVHTVSAFAFSTENWGRDKIEIDNLMSLIQHYRNKSNIKFFHRSEVRVSVIGNKTKIPESLLKEIHEIEEATKGYKNKHLIMAVDYSGKFDIMHACKSLVKKSEKGLIREEDVDEALIERELLTNCSDFPSPDLMIRTSGEQRISNFFLWQLAYSELFFSPVFWPDFDKDKLLEALASYQRRERRFGCRV</Hsp_qseq>
+      <Hsp_hseq>KSLKDEKEIDEGTYVAGEEGTPKGLLRELMPRHVAVIMDGNRRWAVRAGLLTSQGHEAGAKRLIEFAELCFKLGIETVSAFAFSTENWGRHKIEVKCLMSLFQRYL-KSKIQFFQSEEIRVSVIGNLEKIPESLLGTIKETEQATKRYKKKHLILAIDYSGRSDILHACKSIVKKSQQGLIREEDVDETLFERELLTKCTEFPSPDLLIRTSGEQRISNFLLWQLAYTELFFSPVLWPDFDKDRVIEALVSYQRRERRFGCRI</Hsp_hseq>
+      <Hsp_midline>K+ +D ++ DEGTYV  E+G    L RELMPRHVA I+DGNRRWA RAGL TSQGHEAGAKRLI+ AELCF+LG+ TVSAFAFSTENWGR KIE+  LMSL Q Y  KS I+FF   E+RVSVIGN  KIPESLL  I E E+ATK YK KHLI+A+DYSG+ DI+HACKS+VKKS++GLIREEDVDE L ERELLT C++FPSPDL+IRTSGEQRISNF LWQLAY+ELFFSPV WPDFDKD+++EAL SYQRRERRFGCR+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>22</Hit_num>
+  <Hit_id>gi|922421277|ref|XP_013616515.1|</Hit_id>
+  <Hit_def>PREDICTED: dehydrodolichyl diphosphate synthase 4-like [Brassica oleracea var. oleracea]</Hit_def>
+  <Hit_accession>XP_013616515</Hit_accession>
+  <Hit_len>289</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>400.979</Hsp_bit-score>
+      <Hsp_score>1029</Hsp_score>
+      <Hsp_evalue>2.60644e-138</Hsp_evalue>
+      <Hsp_query-from>45</Hsp_query-from>
+      <Hsp_query-to>303</Hsp_query-to>
+      <Hsp_hit-from>28</Hsp_hit-from>
+      <Hsp_hit-to>289</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>192</Hsp_identity>
+      <Hsp_positive>222</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>263</Hsp_align-len>
+      <Hsp_qseq>KAARDNEKRDEGTYVVREDG----LQRELMPRHVAFILDGNRRWAKRAGLTTSQGHEAGAKRLIDIAELCFELGVHTVSAFAFSTENWGRDKIEIDNLMSLIQHYRNKSNIKFFHRSEVRVSVIGNKTKIPESLLKEIHEIEEATKGYKNKHLIMAVDYSGKFDIMHACKSLVKKSEKGLIREEDVDEALIERELLTNCSDFPSPDLMIRTSGEQRISNFFLWQLAYSELFFSPVFWPDFDKDKLLEALASYQRRERRFGCRV</Hsp_qseq>
+      <Hsp_hseq>KSLKDEKEIDEGTYVAGEEGTPKGLLRELMPRHVAVIMDGNRRWAERAGLLTSQGHEAGAKRLIEFSELCFKLGIETVSAFAFSTENWGRHKIEVKCLMSLFQRYL-KSKIQFFQSEEIRVSVIGNLEKIPESLLGTIKETEQATKRYKKKHLILAIDYSGRSDILHACKSIVKKSQQGLIRGEDVDETLFERELLTKCTEFPSPDLLIRTSGEQRISNFLLWQLAYTELFFSPVLWPDFDKDRVIEALVSYQRRERRFGCRI</Hsp_hseq>
+      <Hsp_midline>K+ +D ++ DEGTYV  E+G    L RELMPRHVA I+DGNRRWA+RAGL TSQGHEAGAKRLI+ +ELCF+LG+ TVSAFAFSTENWGR KIE+  LMSL Q Y  KS I+FF   E+RVSVIGN  KIPESLL  I E E+ATK YK KHLI+A+DYSG+ DI+HACKS+VKKS++GLIR EDVDE L ERELLT C++FPSPDL+IRTSGEQRISNF LWQLAY+ELFFSPV WPDFDKD+++EAL SYQRRERRFGCR+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>23</Hit_num>
+  <Hit_id>gi|8843798|dbj|BAA97346.1|</Hit_id>
+  <Hit_def>undecaprenyl pyrophosphate synthetase-like [Arabidopsis thaliana]</Hit_def>
+  <Hit_accession>BAA97346</Hit_accession>
+  <Hit_len>225</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>396.356</Hsp_bit-score>
+      <Hsp_score>1017</Hsp_score>
+      <Hsp_evalue>2.15708e-137</Hsp_evalue>
+      <Hsp_query-from>78</Hsp_query-from>
+      <Hsp_query-to>303</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>225</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>186</Hsp_identity>
+      <Hsp_positive>206</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>226</Hsp_align-len>
+      <Hsp_qseq>LDGNRRWAKRAGLTTSQGHEAGAKRLIDIAELCFELGVHTVSAFAFSTENWGRDKIEIDNLMSLIQHYRNKSNIKFFHRSEVRVSVIGNKTKIPESLLKEIHEIEEATKGYKNKHLIMAVDYSGKFDIMHACKSLVKKSEKGLIREEDVDEALIERELLTNCSDFPSPDLMIRTSGEQRISNFFLWQLAYSELFFSPVFWPDFDKDKLLEALASYQRRERRFGCRV</Hsp_qseq>
+      <Hsp_hseq>MDGNRRWAKRAGLLTSQGHEAGAKRLIEFSELCFKLGIHTVSAFAFSTENWGRHKIEVKCLMSLIQHYL-KSKIQYFQREETRVSVIGNLTKIPESLLRTVQEIEEATRSYKKKHLILAIDYSGRLDILRACKSIVKKSEKGLIREEDVDEALIERELLTNCTEFPSPDLLIRTSGEQRISNFFLWQLAYTELFFSPVLWPDFDKDKLLEALVSYQRRERRFGCRV</Hsp_hseq>
+      <Hsp_midline>+DGNRRWAKRAGL TSQGHEAGAKRLI+ +ELCF+LG+HTVSAFAFSTENWGR KIE+  LMSLIQHY  KS I++F R E RVSVIGN TKIPESLL+ + EIEEAT+ YK KHLI+A+DYSG+ DI+ ACKS+VKKSEKGLIREEDVDEALIERELLTNC++FPSPDL+IRTSGEQRISNFFLWQLAY+ELFFSPV WPDFDKDKLLEAL SYQRRERRFGCRV</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>24</Hit_num>
+  <Hit_id>gi|1032281981|gb|OAO96309.1|</Hit_id>
+  <Hit_def>cPT6 [Arabidopsis thaliana]</Hit_def>
+  <Hit_accession>OAO96309</Hit_accession>
+  <Hit_len>289</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>395.586</Hsp_bit-score>
+      <Hsp_score>1015</Hsp_score>
+      <Hsp_evalue>3.91561e-136</Hsp_evalue>
+      <Hsp_query-from>48</Hsp_query-from>
+      <Hsp_query-to>303</Hsp_query-to>
+      <Hsp_hit-from>31</Hsp_hit-from>
+      <Hsp_hit-to>289</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>188</Hsp_identity>
+      <Hsp_positive>221</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>260</Hsp_align-len>
+      <Hsp_qseq>RDNEKRDEGTYVVREDG----LQRELMPRHVAFILDGNRRWAKRAGLTTSQGHEAGAKRLIDIAELCFELGVHTVSAFAFSTENWGRDKIEIDNLMSLIQHYRNKSNIKFFHRSEVRVSVIGNKTKIPESLLKEIHEIEEATKGYKNKHLIMAVDYSGKFDIMHACKSLVKKSEKGLIREEDVDEALIERELLTNCSDFPSPDLMIRTSGEQRISNFFLWQLAYSELFFSPVFWPDFDKDKLLEALASYQRRERRFGCRV</Hsp_qseq>
+      <Hsp_hseq>KNKKKIDKGTYVVGEEETPKELQRELMPRHVAVIMDGNRRWAKQTGLLTSQGYEAGAKRLLEFADLCFKLGINTVSAFAFSTENWGRHKIEVKCLMYLFQRYL-KSKIQFFQSKEIRVSVIGNLAKIPESLLRTVHELEEATKSYKKKHLILAIDYSGRFDILGACKSIVKKSEQGLIREEDVDETLFERELQTKCTEFPSPDLLIRTSGEQRISNFFLWQLAYTELFFSPVLWPDFDKQKFIEALVSYQRRDRRFGSRL</Hsp_hseq>
+      <Hsp_midline>++ +K D+GTYVV E+     LQRELMPRHVA I+DGNRRWAK+ GL TSQG+EAGAKRL++ A+LCF+LG++TVSAFAFSTENWGR KIE+  LM L Q Y  KS I+FF   E+RVSVIGN  KIPESLL+ +HE+EEATK YK KHLI+A+DYSG+FDI+ ACKS+VKKSE+GLIREEDVDE L EREL T C++FPSPDL+IRTSGEQRISNFFLWQLAY+ELFFSPV WPDFDK K +EAL SYQRR+RRFG R+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>25</Hit_num>
+  <Hit_id>gi|18424146|ref|NP_568883.1|</Hit_id>
+  <Hit_def>Undecaprenyl pyrophosphate synthetase family protein [Arabidopsis thaliana] &gt;gi|75244417|sp|Q8GY03.1|DDPS4_ARATH RecName: Full=Dehydrodolichyl diphosphate synthase 4; Short=Dedol-PP synthase 4 &gt;gi|26450940|dbj|BAC42577.1| putative mzn1 dehydrodolichyl diphosphate synthase [Arabidopsis thaliana] &gt;gi|28950851|gb|AAO63349.1| At5g58782 [Arabidopsis thaliana] &gt;gi|332009715|gb|AED97098.1| Undecaprenyl pyrophosphate synthetase family protein [Arabidopsis thaliana]</Hit_def>
+  <Hit_accession>NP_568883</Hit_accession>
+  <Hit_len>289</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>392.119</Hsp_bit-score>
+      <Hsp_score>1006</Hsp_score>
+      <Hsp_evalue>8.20209e-135</Hsp_evalue>
+      <Hsp_query-from>48</Hsp_query-from>
+      <Hsp_query-to>303</Hsp_query-to>
+      <Hsp_hit-from>31</Hsp_hit-from>
+      <Hsp_hit-to>289</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>186</Hsp_identity>
+      <Hsp_positive>220</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>260</Hsp_align-len>
+      <Hsp_qseq>RDNEKRDEGTYVVREDG----LQRELMPRHVAFILDGNRRWAKRAGLTTSQGHEAGAKRLIDIAELCFELGVHTVSAFAFSTENWGRDKIEIDNLMSLIQHYRNKSNIKFFHRSEVRVSVIGNKTKIPESLLKEIHEIEEATKGYKNKHLIMAVDYSGKFDIMHACKSLVKKSEKGLIREEDVDEALIERELLTNCSDFPSPDLMIRTSGEQRISNFFLWQLAYSELFFSPVFWPDFDKDKLLEALASYQRRERRFGCRV</Hsp_qseq>
+      <Hsp_hseq>KNKKKIDKGTYVVGEEETPKELQRELMPRHVAVIMDGNRRWAKQTGLLTSQGYEAGAKRLLEFADLCFKLGINTVSAFAFSTENWGRHKIEVKCLMYLFQRYL-KSKIQFFQSKEIRVSVIGNLAKIPESLLRTVHELEEATKSYKKKHLILAIDYSGRFDILGACKNIVKKSEQGLIREEDVDETLFERELQTRCTEFPSPDLLIRTSGEQRISNFFLWQLAYTEFFFSPVLWPDFDKQKFIEALVSYQRRDRRFGSRL</Hsp_hseq>
+      <Hsp_midline>++ +K D+GTYVV E+     LQRELMPRHVA I+DGNRRWAK+ GL TSQG+EAGAKRL++ A+LCF+LG++TVSAFAFSTENWGR KIE+  LM L Q Y  KS I+FF   E+RVSVIGN  KIPESLL+ +HE+EEATK YK KHLI+A+DYSG+FDI+ ACK++VKKSE+GLIREEDVDE L EREL T C++FPSPDL+IRTSGEQRISNFFLWQLAY+E FFSPV WPDFDK K +EAL SYQRR+RRFG R+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>26</Hit_num>
+  <Hit_id>gi|1063742059|ref|NP_001332129.1|</Hit_id>
+  <Hit_def>Undecaprenyl pyrophosphate synthetase family protein [Arabidopsis thaliana] &gt;gi|1039021536|gb|ANM70526.1| Undecaprenyl pyrophosphate synthetase family protein [Arabidopsis thaliana]</Hit_def>
+  <Hit_accession>NP_001332129</Hit_accession>
+  <Hit_len>307</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>392.889</Hsp_bit-score>
+      <Hsp_score>1008</Hsp_score>
+      <Hsp_evalue>8.35935e-135</Hsp_evalue>
+      <Hsp_query-from>48</Hsp_query-from>
+      <Hsp_query-to>303</Hsp_query-to>
+      <Hsp_hit-from>49</Hsp_hit-from>
+      <Hsp_hit-to>307</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>186</Hsp_identity>
+      <Hsp_positive>220</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>260</Hsp_align-len>
+      <Hsp_qseq>RDNEKRDEGTYVVREDG----LQRELMPRHVAFILDGNRRWAKRAGLTTSQGHEAGAKRLIDIAELCFELGVHTVSAFAFSTENWGRDKIEIDNLMSLIQHYRNKSNIKFFHRSEVRVSVIGNKTKIPESLLKEIHEIEEATKGYKNKHLIMAVDYSGKFDIMHACKSLVKKSEKGLIREEDVDEALIERELLTNCSDFPSPDLMIRTSGEQRISNFFLWQLAYSELFFSPVFWPDFDKDKLLEALASYQRRERRFGCRV</Hsp_qseq>
+      <Hsp_hseq>KNKKKIDKGTYVVGEEETPKELQRELMPRHVAVIMDGNRRWAKQTGLLTSQGYEAGAKRLLEFADLCFKLGINTVSAFAFSTENWGRHKIEVKCLMYLFQRYL-KSKIQFFQSKEIRVSVIGNLAKIPESLLRTVHELEEATKSYKKKHLILAIDYSGRFDILGACKNIVKKSEQGLIREEDVDETLFERELQTRCTEFPSPDLLIRTSGEQRISNFFLWQLAYTEFFFSPVLWPDFDKQKFIEALVSYQRRDRRFGSRL</Hsp_hseq>
+      <Hsp_midline>++ +K D+GTYVV E+     LQRELMPRHVA I+DGNRRWAK+ GL TSQG+EAGAKRL++ A+LCF+LG++TVSAFAFSTENWGR KIE+  LM L Q Y  KS I+FF   E+RVSVIGN  KIPESLL+ +HE+EEATK YK KHLI+A+DYSG+FDI+ ACK++VKKSE+GLIREEDVDE L EREL T C++FPSPDL+IRTSGEQRISNFFLWQLAY+E FFSPV WPDFDK K +EAL SYQRR+RRFG R+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>27</Hit_num>
+  <Hit_id>gi|21618322|gb|AAM67372.1|</Hit_id>
+  <Hit_def>undecaprenyl pyrophosphate synthetase-like [Arabidopsis thaliana]</Hit_def>
+  <Hit_accession>AAM67372</Hit_accession>
+  <Hit_len>289</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>390.578</Hsp_bit-score>
+      <Hsp_score>1002</Hsp_score>
+      <Hsp_evalue>4.23369e-134</Hsp_evalue>
+      <Hsp_query-from>48</Hsp_query-from>
+      <Hsp_query-to>303</Hsp_query-to>
+      <Hsp_hit-from>31</Hsp_hit-from>
+      <Hsp_hit-to>289</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>185</Hsp_identity>
+      <Hsp_positive>219</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>260</Hsp_align-len>
+      <Hsp_qseq>RDNEKRDEGTYVVREDG----LQRELMPRHVAFILDGNRRWAKRAGLTTSQGHEAGAKRLIDIAELCFELGVHTVSAFAFSTENWGRDKIEIDNLMSLIQHYRNKSNIKFFHRSEVRVSVIGNKTKIPESLLKEIHEIEEATKGYKNKHLIMAVDYSGKFDIMHACKSLVKKSEKGLIREEDVDEALIERELLTNCSDFPSPDLMIRTSGEQRISNFFLWQLAYSELFFSPVFWPDFDKDKLLEALASYQRRERRFGCRV</Hsp_qseq>
+      <Hsp_hseq>KNKKKIDKGTYVVGEEETPKELQRELMPRHVAVIMDGNRRWAKQTGLLTSQGYEAGAKRLLEFADLCFKLGINTVSAFAFSTENWGRHKIEVKCLMYLFQRYL-KSKIQFFQSKEIRVSVIGNLAKIPESLLRTVHELEEATKSYKKKHLILAIDYSGRFDILGACKNIVKKSEQGLIREEDVDETFFERELQTRCTEFPSPDLLIRTSGEQRISNFFLWQLAYTEFFFSPVLWPDFDKQKFIEALVSYQRRDRRFGSRL</Hsp_hseq>
+      <Hsp_midline>++ +K D+GTYVV E+     LQRELMPRHVA I+DGNRRWAK+ GL TSQG+EAGAKRL++ A+LCF+LG++TVSAFAFSTENWGR KIE+  LM L Q Y  KS I+FF   E+RVSVIGN  KIPESLL+ +HE+EEATK YK KHLI+A+DYSG+FDI+ ACK++VKKSE+GLIREEDVDE   EREL T C++FPSPDL+IRTSGEQRISNFFLWQLAY+E FFSPV WPDFDK K +EAL SYQRR+RRFG R+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>28</Hit_num>
+  <Hit_id>gi|685271391|ref|XP_009126738.1|</Hit_id>
+  <Hit_def>PREDICTED: dehydrodolichyl diphosphate synthase 4-like isoform X2 [Brassica rapa]</Hit_def>
+  <Hit_accession>XP_009126738</Hit_accession>
+  <Hit_len>274</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>381.719</Hsp_bit-score>
+      <Hsp_score>979</Hsp_score>
+      <Hsp_evalue>7.59824e-131</Hsp_evalue>
+      <Hsp_query-from>45</Hsp_query-from>
+      <Hsp_query-to>303</Hsp_query-to>
+      <Hsp_hit-from>28</Hsp_hit-from>
+      <Hsp_hit-to>274</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>184</Hsp_identity>
+      <Hsp_positive>213</Hsp_positive>
+      <Hsp_gaps>20</Hsp_gaps>
+      <Hsp_align-len>263</Hsp_align-len>
+      <Hsp_qseq>KAARDNEKRDEGTYVVRED----GLQRELMPRHVAFILDGNRRWAKRAGLTTSQGHEAGAKRLIDIAELCFELGVHTVSAFAFSTENWGRDKIEIDNLMSLIQHYRNKSNIKFFHRSEVRVSVIGNKTKIPESLLKEIHEIEEATKGYKNKHLIMAVDYSGKFDIMHACKSLVKKSEKGLIREEDVDEALIERELLTNCSDFPSPDLMIRTSGEQRISNFFLWQLAYSELFFSPVFWPDFDKDKLLEALASYQRRERRFGCRV</Hsp_qseq>
+      <Hsp_hseq>KSLKDEKEIDEGTYVAGEEETPKGLLREQMPRHVAVIMDGNRRWAERAGLLTSQGHEAGAKRLIEFAELCFKLGIETVSAFAFSTENWGR----------------HKSKIQFFQSEEIRVSVIGNLEKIPESLLGTIKETEEATKRYKKKHLILAIDYSGRSDILHACKSIVKKSQQGLIREEDVDQTLFERELLTKCTEFPSPDLLIRTSGEQRISNFLLWQLAYTELFFSPVLWPDFDKDRVIEALVSYQRRERRFGCRI</Hsp_hseq>
+      <Hsp_midline>K+ +D ++ DEGTYV  E+    GL RE MPRHVA I+DGNRRWA+RAGL TSQGHEAGAKRLI+ AELCF+LG+ TVSAFAFSTENWGR                +KS I+FF   E+RVSVIGN  KIPESLL  I E EEATK YK KHLI+A+DYSG+ DI+HACKS+VKKS++GLIREEDVD+ L ERELLT C++FPSPDL+IRTSGEQRISNF LWQLAY+ELFFSPV WPDFDKD+++EAL SYQRRERRFGCR+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>29</Hit_num>
+  <Hit_id>gi|8843799|dbj|BAA97347.1|</Hit_id>
+  <Hit_def>undecaprenyl pyrophosphate synthetase-like [Arabidopsis thaliana]</Hit_def>
+  <Hit_accession>BAA97347</Hit_accession>
+  <Hit_len>226</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>348.591</Hsp_bit-score>
+      <Hsp_score>893</Hsp_score>
+      <Hsp_evalue>1.52076e-118</Hsp_evalue>
+      <Hsp_query-from>70</Hsp_query-from>
+      <Hsp_query-to>303</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>226</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>166</Hsp_identity>
+      <Hsp_positive>196</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>234</Hsp_align-len>
+      <Hsp_qseq>MPRHVAFILDGNRRWAKRAGLTTSQGHEAGAKRLIDIAELCFELGVHTVSAFAFSTENWGRDKIEIDNLMSLIQHYRNKSNIKFFHRSEVRVSVIGNKTKIPESLLKEIHEIEEATKGYKNKHLIMAVDYSGKFDIMHACKSLVKKSEKGLIREEDVDEALIERELLTNCSDFPSPDLMIRTSGEQRISNFFLWQLAYSELFFSPVFWPDFDKDKLLEALASYQRRERRFGCRV</Hsp_qseq>
+      <Hsp_hseq>MPRHVAVIMDGNRRWAKQTGLLTSQGYEAGAKRLLEFADLCFKLGINTVSAFAFSTENWGRHKS-----FSIAQFVTN--NLVCFSK-EIRVSVIGNLAKIPESLLRTVHELEEATKSYKKKHLILAIDYSGRFDILGACKNIVKKSEQGLIREEDVDETLFERELQTRCTEFPSPDLLIRTSGEQRISNFFLWQLAYTEFFFSPVLWPDFDKQKFIEALVSYQRRDRRFGSRL</Hsp_hseq>
+      <Hsp_midline>MPRHVA I+DGNRRWAK+ GL TSQG+EAGAKRL++ A+LCF+LG++TVSAFAFSTENWGR K       S+ Q   N  N+  F + E+RVSVIGN  KIPESLL+ +HE+EEATK YK KHLI+A+DYSG+FDI+ ACK++VKKSE+GLIREEDVDE L EREL T C++FPSPDL+IRTSGEQRISNFFLWQLAY+E FFSPV WPDFDK K +EAL SYQRR+RRFG R+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>30</Hit_num>
+  <Hit_id>gi|565431097|ref|XP_006279869.1|</Hit_id>
+  <Hit_def>hypothetical protein CARUB_v10028612mg, partial [Capsella rubella] &gt;gi|482548573|gb|EOA12767.1| hypothetical protein CARUB_v10028612mg, partial [Capsella rubella]</Hit_def>
+  <Hit_accession>XP_006279869</Hit_accession>
+  <Hit_len>222</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>337.421</Hsp_bit-score>
+      <Hsp_score>864</Hsp_score>
+      <Hsp_evalue>3.391e-114</Hsp_evalue>
+      <Hsp_query-from>54</Hsp_query-from>
+      <Hsp_query-to>272</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>222</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>163</Hsp_identity>
+      <Hsp_positive>186</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>223</Hsp_align-len>
+      <Hsp_qseq>DEGTYVVRED----GLQRELMPRHVAFILDGNRRWAKRAGLTTSQGHEAGAKRLIDIAELCFELGVHTVSAFAFSTENWGRDKIEIDNLMSLIQHYRNKSNIKFFHRSEVRVSVIGNKTKIPESLLKEIHEIEEATKGYKNKHLIMAVDYSGKFDIMHACKSLVKKSEKGLIREEDVDEALIERELLTNCSDFPSPDLMIRTSGEQRISNFFLWQLAYSELFF</Hsp_qseq>
+      <Hsp_hseq>DEETYVVGDEETPKGLGREPMPRHVAVIMDGNRRWAKQAGLLTSQGHEAGAKRLMEFVELCFTLGIDTVSDFAFSTENWGREKIEVDCLMSMFQQYL-KSKIQYFQSEEIRVSVIGNLAKIPESLLGTIMETEEATKSYKKKHFIVAIDYSGRFDILHACKSIVKKSEQGLIREEDVDETLFERELQTKCTEFPSPDLLIRTSGEQRISNFFLWQLAYTELFF</Hsp_hseq>
+      <Hsp_midline>DE TYVV ++    GL RE MPRHVA I+DGNRRWAK+AGL TSQGHEAGAKRL++  ELCF LG+ TVS FAFSTENWGR+KIE+D LMS+ Q Y  KS I++F   E+RVSVIGN  KIPESLL  I E EEATK YK KH I+A+DYSG+FDI+HACKS+VKKSE+GLIREEDVDE L EREL T C++FPSPDL+IRTSGEQRISNFFLWQLAY+ELFF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>31</Hit_num>
+  <Hit_id>gi|923779078|ref|XP_013681526.1|</Hit_id>
+  <Hit_def>PREDICTED: dehydrodolichyl diphosphate synthase 5-like [Brassica napus] &gt;gi|674894315|emb|CDY38537.1| BnaC03g26600D [Brassica napus]</Hit_def>
+  <Hit_accession>XP_013681526</Hit_accession>
+  <Hit_len>296</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>338.191</Hsp_bit-score>
+      <Hsp_score>866</Hsp_score>
+      <Hsp_evalue>2.4871e-113</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>303</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>296</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>166</Hsp_identity>
+      <Hsp_positive>223</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>303</Hsp_align-len>
+      <Hsp_qseq>MLSLLSSDSSLLSLLFLFLIPCLFITSYIGFPVFLLKLIGLIKIKAARDNEKRDEGTYVVREDGLQRELMPRHVAFILDGNRRWAKRAGLTTSQGHEAGAKRLIDIAELCFELGVHTVSAFAFSTENWGRDKIEIDNLMSLIQHYRNKSNIKFFHRSEVRVSVIGNKTKIPESLLKEIHEIEEATKGYKNKHLIMAVDYSGKFDIMHACKSLVKKSEKGLIREEDVDEALIERELLTNCSDFPSPDLMIRTSGEQRISNFFLWQLAYSELFFSPVFWPDFDKDKLLEALASYQRRERRFGCRV</Hsp_qseq>
+      <Hsp_hseq>MLSLLSI---FFTCLALILIPCLFIFRRPSVPLFLKKAIIFIKTATSQYNDEEESGTIEGKE---KRGRMPKHVAIILDGNRRWANKRGLRVSEGHEAGARRLLEHVMDCFAIGINTISLFAFSTENWGRPDGEVNFLMAMFEK-NFKSEMAYYDRYKVKISVIGRRTNMPESLLGLIQEVEEATKSYKEKHLIMAIDYSGRFDILQACKRLAEKTKNGLIQVEDLDERMIDKELMTSCSEYPNPDLLIRTSGEQRISNFFLWQSAYTELYFPNVLWPDFGEAEYLKALTWYQQRQRRFGLRV</Hsp_hseq>
+      <Hsp_midline>MLSLLS      + L L LIPCLFI      P+FL K I  IK   ++ N++ + GT   +E   +R  MP+HVA ILDGNRRWA + GL  S+GHEAGA+RL++    CF +G++T+S FAFSTENWGR   E++ LM++ +    KS + ++ R +V++SVIG +T +PESLL  I E+EEATK YK KHLIMA+DYSG+FDI+ ACK L +K++ GLI+ ED+DE +I++EL+T+CS++P+PDL+IRTSGEQRISNFFLWQ AY+EL+F  V WPDF + + L+AL  YQ+R+RRFG RV</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>32</Hit_num>
+  <Hit_id>gi|922564884|ref|XP_013610710.1|</Hit_id>
+  <Hit_def>PREDICTED: dehydrodolichyl diphosphate synthase 5-like [Brassica oleracea var. oleracea]</Hit_def>
+  <Hit_accession>XP_013610710</Hit_accession>
+  <Hit_len>300</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>337.421</Hsp_bit-score>
+      <Hsp_score>864</Hsp_score>
+      <Hsp_evalue>5.61012e-113</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>303</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>300</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>166</Hsp_identity>
+      <Hsp_positive>232</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>307</Hsp_align-len>
+      <Hsp_qseq>MLSLLSSDSSLLSLLFLFLIPCLFITSYIGFPVFLLKLIGLIKIKAAR--DNEKRDE--GTYVVREDGLQRELMPRHVAFILDGNRRWAKRAGLTTSQGHEAGAKRLIDIAELCFELGVHTVSAFAFSTENWGRDKIEIDNLMSLIQHYRNKSNIKFFHRSEVRVSVIGNKTKIPESLLKEIHEIEEATKGYKNKHLIMAVDYSGKFDIMHACKSLVKKSEKGLIREEDVDEALIERELLTNCSDFPSPDLMIRTSGEQRISNFFLWQLAYSELFFSPVFWPDFDKDKLLEALASYQRRERRFGCRV</Hsp_qseq>
+      <Hsp_hseq>MVSLFSV---VLTFIAIILIPGLFISRRLSVPFSIRNILRFIKLAASQNDDEEERNEKRGTMGEKE---KRGGLPKHVAIILDGNRRWAQKRGVGTSDGHKAGARRVIENAKDCFAMGINTVSLFAFSTENWARPEDEVNGLMSLFEE-NFRSELPFFQRDKIKISVIGNRTKIPQSLLGLIRETEEATKSYEGKHLILAIDYSGKFDILQACKSLAEKAKNGVIQVEDIDESVIDKELMTNCSEFPNPDLLIRTSGEQRISNFFLWQSAYTELYFPNVLWPDFGEAEYLQALTWYQQRLRRFGRRV</Hsp_hseq>
+      <Hsp_midline>M+SL S    +L+ + + LIP LFI+  +  P  +  ++  IK+ A++  D E+R+E  GT   +E   +R  +P+HVA ILDGNRRWA++ G+ TS GH+AGA+R+I+ A+ CF +G++TVS FAFSTENW R + E++ LMSL +    +S + FF R ++++SVIGN+TKIP+SLL  I E EEATK Y+ KHLI+A+DYSGKFDI+ ACKSL +K++ G+I+ ED+DE++I++EL+TNCS+FP+PDL+IRTSGEQRISNFFLWQ AY+EL+F  V WPDF + + L+AL  YQ+R RRFG RV</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>33</Hit_num>
+  <Hit_id>gi|565476519|ref|XP_006295900.1|</Hit_id>
+  <Hit_def>hypothetical protein CARUB_v10025030mg [Capsella rubella] &gt;gi|482564608|gb|EOA28798.1| hypothetical protein CARUB_v10025030mg [Capsella rubella]</Hit_def>
+  <Hit_accession>XP_006295900</Hit_accession>
+  <Hit_len>250</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>330.487</Hsp_bit-score>
+      <Hsp_score>846</Hsp_score>
+      <Hsp_evalue>5.69606e-111</Hsp_evalue>
+      <Hsp_query-from>14</Hsp_query-from>
+      <Hsp_query-to>266</Hsp_query-to>
+      <Hsp_hit-from>12</Hsp_hit-from>
+      <Hsp_hit-to>248</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>179</Hsp_identity>
+      <Hsp_positive>205</Hsp_positive>
+      <Hsp_gaps>24</Hsp_gaps>
+      <Hsp_align-len>257</Hsp_align-len>
+      <Hsp_qseq>LLFLFLIPCLFITSYIGFPVFLLKLIGL-IKIKAARD---NEKRDEGTYVVREDGLQRELMPRHVAFILDGNRRWAKRAGLTTSQGHEAGAKRLIDIAELCFELGVHTVSAFAFSTENWGRDKIEIDNLMSLIQHYRNKSNIKFFHRSEVRVSVIGNKTKIPESLLKEIHEIEEATKGYKNKHLIMAVDYSGKFDIMHACKSLVKKSEKGLIREEDVDEALIERELLTNCSDFPSPDLMIRTSGEQRISNFFLWQLA</Hsp_qseq>
+      <Hsp_hseq>IFFLFLIPCLFITSYICFPLFLPKLLGLLIKIIAARDDDDNKKLDEGTNVVREEELQRELMPRHVAVIVDGNRRWAKRAGLFTLQGHEAGAKRLTQFAEHCFDLVIQTVSAFLFSTENWGRNKVEVKCLMSLLEHYI-KSQIQYF-QSQV------------------INEIEEATKGYKNKHLILAIDYSGRFDLTLACKSIVKKSEEGLIREEDVDETLIERELMTNTIDFPSPDFLIRTSGEQRISNFFLWQLC</Hsp_hseq>
+      <Hsp_midline>+ FLFLIPCLFITSYI FP+FL KL+GL IKI AARD   N+K DEGT VVRE+ LQRELMPRHVA I+DGNRRWAKRAGL T QGHEAGAKRL   AE CF+L + TVSAF FSTENWGR+K+E+  LMSL++HY  KS I++F +S+V                  I+EIEEATKGYKNKHLI+A+DYSG+FD+  ACKS+VKKSE+GLIREEDVDE LIEREL+TN  DFPSPD +IRTSGEQRISNFFLWQL </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>34</Hit_num>
+  <Hit_id>gi|922426863|ref|XP_013619476.1|</Hit_id>
+  <Hit_def>PREDICTED: dehydrodolichyl diphosphate synthase 5-like [Brassica oleracea var. oleracea]</Hit_def>
+  <Hit_accession>XP_013619476</Hit_accession>
+  <Hit_len>303</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>331.257</Hsp_bit-score>
+      <Hsp_score>848</Hsp_score>
+      <Hsp_evalue>1.29478e-110</Hsp_evalue>
+      <Hsp_query-from>9</Hsp_query-from>
+      <Hsp_query-to>303</Hsp_query-to>
+      <Hsp_hit-from>9</Hsp_hit-from>
+      <Hsp_hit-to>303</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>158</Hsp_identity>
+      <Hsp_positive>224</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>297</Hsp_align-len>
+      <Hsp_qseq>SSLLSLLFLFLIPCLFITSYIGFPVFLLKLIGLIKIKAAR--DNEKRDEGTYVVREDGLQRELMPRHVAFILDGNRRWAKRAGLTTSQGHEAGAKRLIDIAELCFELGVHTVSAFAFSTENWGRDKIEIDNLMSLIQHYRNKSNIKFFHRSEVRVSVIGNKTKIPESLLKEIHEIEEATKGYKNKHLIMAVDYSGKFDIMHACKSLVKKSEKGLIREEDVDEALIERELLTNCSDFPSPDLMIRTSGEQRISNFFLWQLAYSELFFSPVFWPDFDKDKLLEALASYQRRERRFGCRV</Hsp_qseq>
+      <Hsp_hseq>SVVFTCLALLIIPVIIVTRRLSVRLSFKNILRFIKLVASQLDDEEENNEKSGTIGEEDKRRRL-PKHVAIILDGNRRWAEKRGLGTSEGHQAGARRLIENAKDCFAMGINTVSLFAFSTENWARPEDEVNGLMALFEKHL-RSEMAFFRSDKIKISVIGNRTKISQSLLGLITEAEEATKNYEEKHLIIAIDYSGRFDILQACKSLAEKAKNGLIQVEDIDEDVMEKELMTNCSEFPNPDLLIRTSGEQRISNFFLWQSAYTELYFPNVLWPDFGESEYLEALTWYQQRQRRFGLRV</Hsp_hseq>
+      <Hsp_midline>S + + L L +IP + +T  +   +    ++  IK+ A++  D E+ +E +  + E+  +R L P+HVA ILDGNRRWA++ GL TS+GH+AGA+RLI+ A+ CF +G++TVS FAFSTENW R + E++ LM+L + +  +S + FF   ++++SVIGN+TKI +SLL  I E EEATK Y+ KHLI+A+DYSG+FDI+ ACKSL +K++ GLI+ ED+DE ++E+EL+TNCS+FP+PDL+IRTSGEQRISNFFLWQ AY+EL+F  V WPDF + + LEAL  YQ+R+RRFG RV</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>35</Hit_num>
+  <Hit_id>gi|923535376|ref|XP_013713703.1|</Hit_id>
+  <Hit_def>PREDICTED: dehydrodolichyl diphosphate synthase 5-like [Brassica napus]</Hit_def>
+  <Hit_accession>XP_013713703</Hit_accession>
+  <Hit_len>303</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>330.487</Hsp_bit-score>
+      <Hsp_score>846</Hsp_score>
+      <Hsp_evalue>3.4968e-110</Hsp_evalue>
+      <Hsp_query-from>9</Hsp_query-from>
+      <Hsp_query-to>303</Hsp_query-to>
+      <Hsp_hit-from>9</Hsp_hit-from>
+      <Hsp_hit-to>303</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>159</Hsp_identity>
+      <Hsp_positive>223</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>297</Hsp_align-len>
+      <Hsp_qseq>SSLLSLLFLFLIPCLFITSYIGFPVFLLKLIGLIKIKAAR--DNEKRDEGTYVVREDGLQRELMPRHVAFILDGNRRWAKRAGLTTSQGHEAGAKRLIDIAELCFELGVHTVSAFAFSTENWGRDKIEIDNLMSLIQHYRNKSNIKFFHRSEVRVSVIGNKTKIPESLLKEIHEIEEATKGYKNKHLIMAVDYSGKFDIMHACKSLVKKSEKGLIREEDVDEALIERELLTNCSDFPSPDLMIRTSGEQRISNFFLWQLAYSELFFSPVFWPDFDKDKLLEALASYQRRERRFGCRV</Hsp_qseq>
+      <Hsp_hseq>SVVFTCLALLIIPVIIITRRLSVHLSFKNILRFIKLVASQLDDEEENNEKSGTIGEEDKRRRL-PKHVAIILDGNRRWAEKRGLGTSEGHQAGARRLIENAKDCFAMGINTVSLFAFSTENWARPEDEVNGLMALFEKHL-RSEMAFFRSDKIKISVIGNRTKISQSLLGLITEAEEATKNYEEKHLIIAIDYSGRFDILQACKSLAEKAKNGLIHVEDIDEDVMEKELMTNCSEFPNPDLLIRTSGEQRISNFFLWQSAYTELYFPNVLWPDFGEAEYLEALTWYQQRQRRFGLRV</Hsp_hseq>
+      <Hsp_midline>S + + L L +IP + IT  +   +    ++  IK+ A++  D E+ +E +  + E+  +R L P+HVA ILDGNRRWA++ GL TS+GH+AGA+RLI+ A+ CF +G++TVS FAFSTENW R + E++ LM+L + +  +S + FF   ++++SVIGN+TKI +SLL  I E EEATK Y+ KHLI+A+DYSG+FDI+ ACKSL +K++ GLI  ED+DE ++E+EL+TNCS+FP+PDL+IRTSGEQRISNFFLWQ AY+EL+F  V WPDF + + LEAL  YQ+R+RRFG RV</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>36</Hit_num>
+  <Hit_id>gi|923526168|ref|XP_013683445.1|</Hit_id>
+  <Hit_def>PREDICTED: dehydrodolichyl diphosphate synthase 5-like [Brassica napus] &gt;gi|923535436|ref|XP_013713889.1| PREDICTED: dehydrodolichyl diphosphate synthase 5-like [Brassica napus] &gt;gi|674930576|emb|CDY02837.1| BnaC02g10520D [Brassica napus]</Hit_def>
+  <Hit_accession>XP_013683445</Hit_accession>
+  <Hit_len>303</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>330.102</Hsp_bit-score>
+      <Hsp_score>845</Hsp_score>
+      <Hsp_evalue>4.25614e-110</Hsp_evalue>
+      <Hsp_query-from>9</Hsp_query-from>
+      <Hsp_query-to>303</Hsp_query-to>
+      <Hsp_hit-from>9</Hsp_hit-from>
+      <Hsp_hit-to>303</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>159</Hsp_identity>
+      <Hsp_positive>223</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>297</Hsp_align-len>
+      <Hsp_qseq>SSLLSLLFLFLIPCLFITSYIGFPVFLLKLIGLIKIKAAR--DNEKRDEGTYVVREDGLQRELMPRHVAFILDGNRRWAKRAGLTTSQGHEAGAKRLIDIAELCFELGVHTVSAFAFSTENWGRDKIEIDNLMSLIQHYRNKSNIKFFHRSEVRVSVIGNKTKIPESLLKEIHEIEEATKGYKNKHLIMAVDYSGKFDIMHACKSLVKKSEKGLIREEDVDEALIERELLTNCSDFPSPDLMIRTSGEQRISNFFLWQLAYSELFFSPVFWPDFDKDKLLEALASYQRRERRFGCRV</Hsp_qseq>
+      <Hsp_hseq>SVVFTCLALLIIPVIIITRRLSVHLSFKNILRFIKLVASQLDDEEENNEKSGTIGEEDKRRRL-PKHVAIILDGNRRWAEKRGLGTSEGHQAGARRLIENAKDCFAMGINTVSLFAFSTENWARPEDEVNGLMALFEKHL-RSEMAFFRSDKIKISVIGNRTKISQSLLGLITEAEEATKNYEEKHLIIAIDYSGRFDILQACKSLAEKVKNGLIQVEDIDEDVMEKELMTNCSEFPNPDLLIRTSGEQRISNFFLWQSAYTELYFPNVLWPDFGEAEYLEALTWYQQRQRRFGLRV</Hsp_hseq>
+      <Hsp_midline>S + + L L +IP + IT  +   +    ++  IK+ A++  D E+ +E +  + E+  +R L P+HVA ILDGNRRWA++ GL TS+GH+AGA+RLI+ A+ CF +G++TVS FAFSTENW R + E++ LM+L + +  +S + FF   ++++SVIGN+TKI +SLL  I E EEATK Y+ KHLI+A+DYSG+FDI+ ACKSL +K + GLI+ ED+DE ++E+EL+TNCS+FP+PDL+IRTSGEQRISNFFLWQ AY+EL+F  V WPDF + + LEAL  YQ+R+RRFG RV</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>37</Hit_num>
+  <Hit_id>gi|923685604|ref|XP_013654989.1|</Hit_id>
+  <Hit_def>PREDICTED: dehydrodolichyl diphosphate synthase 5-like [Brassica napus] &gt;gi|674900243|emb|CDY32683.1| BnaA02g07450D [Brassica napus]</Hit_def>
+  <Hit_accession>XP_013654989</Hit_accession>
+  <Hit_len>303</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>330.102</Hsp_bit-score>
+      <Hsp_score>845</Hsp_score>
+      <Hsp_evalue>4.59414e-110</Hsp_evalue>
+      <Hsp_query-from>9</Hsp_query-from>
+      <Hsp_query-to>303</Hsp_query-to>
+      <Hsp_hit-from>9</Hsp_hit-from>
+      <Hsp_hit-to>303</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>159</Hsp_identity>
+      <Hsp_positive>223</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>297</Hsp_align-len>
+      <Hsp_qseq>SSLLSLLFLFLIPCLFITSYIGFPVFLLKLIGLIKIKAAR--DNEKRDEGTYVVREDGLQRELMPRHVAFILDGNRRWAKRAGLTTSQGHEAGAKRLIDIAELCFELGVHTVSAFAFSTENWGRDKIEIDNLMSLIQHYRNKSNIKFFHRSEVRVSVIGNKTKIPESLLKEIHEIEEATKGYKNKHLIMAVDYSGKFDIMHACKSLVKKSEKGLIREEDVDEALIERELLTNCSDFPSPDLMIRTSGEQRISNFFLWQLAYSELFFSPVFWPDFDKDKLLEALASYQRRERRFGCRV</Hsp_qseq>
+      <Hsp_hseq>SVVFTCLALLIIPVIIITRRLSVHLSFKNILRFIKLVASQLDDEEENNEKSGTIGEEDKRRRL-PKHVAIILDGNRRWAEKRGLGTSEGHHAGARRLIENAKDCFAMGINTVSLFAFSTENWARPEDEVNGLMALFEKHL-RSEMAFFRSDKIKISVIGNRTKISQSLLGLITEAEEATKNYEEKHLIIAIDYSGRFDILQACKSLAEKAKNGLIQVEDIDEDVMEKELMTNCSEFPNPDLLIRTSGEQRISNFFLWQSAYTELYFPNVLWPDFGEAEYLEALTWYQQRQRRFGLRV</Hsp_hseq>
+      <Hsp_midline>S + + L L +IP + IT  +   +    ++  IK+ A++  D E+ +E +  + E+  +R L P+HVA ILDGNRRWA++ GL TS+GH AGA+RLI+ A+ CF +G++TVS FAFSTENW R + E++ LM+L + +  +S + FF   ++++SVIGN+TKI +SLL  I E EEATK Y+ KHLI+A+DYSG+FDI+ ACKSL +K++ GLI+ ED+DE ++E+EL+TNCS+FP+PDL+IRTSGEQRISNFFLWQ AY+EL+F  V WPDF + + LEAL  YQ+R+RRFG RV</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>38</Hit_num>
+  <Hit_id>gi|567204853|ref|XP_006408591.1|</Hit_id>
+  <Hit_def>hypothetical protein EUTSA_v10002055mg [Eutrema salsugineum] &gt;gi|557109747|gb|ESQ50044.1| hypothetical protein EUTSA_v10002055mg [Eutrema salsugineum]</Hit_def>
+  <Hit_accession>XP_006408591</Hit_accession>
+  <Hit_len>296</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>329.331</Hsp_bit-score>
+      <Hsp_score>843</Hsp_score>
+      <Hsp_evalue>6.32497e-110</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>300</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>293</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>161</Hsp_identity>
+      <Hsp_positive>222</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>300</Hsp_align-len>
+      <Hsp_qseq>MLSLLSSDSSLLSLLFLFLIPCLFITSYIGFPVFLLKLIGLIKIKAARDNEKRDEGTYVVREDGLQRELMPRHVAFILDGNRRWAKRAGLTTSQGHEAGAKRLIDIAELCFELGVHTVSAFAFSTENWGRDKIEIDNLMSLIQHYRNKSNIKFFHRSEVRVSVIGNKTKIPESLLKEIHEIEEATKGYKNKHLIMAVDYSGKFDIMHACKSLVKKSEKGLIREEDVDEALIERELLTNCSDFPSPDLMIRTSGEQRISNFFLWQLAYSELFFSPVFWPDFDKDKLLEALASYQRRERRFG</Hsp_qseq>
+      <Hsp_hseq>MLSLLSI---VFTFLALSLIPCLFISRRQSIPLSLKNILRFIKTGATQYNDEGESGTI---EETEKRGRIPNHVAIILDGNRRWAKIRGLEVSEGHEAGGRRVVENSKKWFAMGVKTVSLFAFSTENWGRPEDEVNFLMAMFEK-NFKSEMPYYQRYKIKISVIGKRTNIPESLLGLIREVEEATKSYKEKHLVMAIDYSGRFDILQACKSLSEKAKNGLIQVEDIDEKLMDKELMTSCSDFPNPDLLIRTSGEKRISNFFLWQSAYTELYFPNVLWPDFGEAEYLKALTWFQQRQRRFG</Hsp_hseq>
+      <Hsp_midline>MLSLLS    + + L L LIPCLFI+     P+ L  ++  IK  A + N++ + GT    E+  +R  +P HVA ILDGNRRWAK  GL  S+GHEAG +R+++ ++  F +GV TVS FAFSTENWGR + E++ LM++ +    KS + ++ R ++++SVIG +T IPESLL  I E+EEATK YK KHL+MA+DYSG+FDI+ ACKSL +K++ GLI+ ED+DE L+++EL+T+CSDFP+PDL+IRTSGE+RISNFFLWQ AY+EL+F  V WPDF + + L+AL  +Q+R+RRFG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>39</Hit_num>
+  <Hit_id>gi|729434880|ref|XP_010520209.1|</Hit_id>
+  <Hit_def>PREDICTED: dehydrodolichyl diphosphate synthase 4 [Tarenaya hassleriana]</Hit_def>
+  <Hit_accession>XP_010520209</Hit_accession>
+  <Hit_len>241</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>325.479</Hsp_bit-score>
+      <Hsp_score>833</Hsp_score>
+      <Hsp_evalue>2.99514e-109</Hsp_evalue>
+      <Hsp_query-from>65</Hsp_query-from>
+      <Hsp_query-to>303</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>241</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>150</Hsp_identity>
+      <Hsp_positive>192</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>239</Hsp_align-len>
+      <Hsp_qseq>LQRELMPRHVAFILDGNRRWAKRAGLTTSQGHEAGAKRLIDIAELCFELGVHTVSAFAFSTENWGRDKIEIDNLMSLIQHYRNKSNIKFFHRSEVRVSVIGNKTKIPESLLKEIHEIEEATKGYKNKHLIMAVDYSGKFDIMHACKSLVKKSEKGLIREEDVDEALIERELLTNCSDFPSPDLMIRTSGEQRISNFFLWQLAYSELFFSPVFWPDFDKDKLLEALASYQRRERRFGCRV</Hsp_qseq>
+      <Hsp_hseq>LRPELMPRHVAVIMDGNRRWAVQRGLATGQGHEAGARGLVELAQLCFKRGIHTLSAFAFSTENWGRPHGEVNCLMFLFEKYL-KLKIPFFQRERIRISVIGDVTKIPESLLRTIRGIEESTRIYSTKHIIIAIDYSGRYDISQACKRIVRKAKGGSIQMEDVDEDMIEKELLTKCTEFPNPDLLIRTSGEQRISNFYLWQSAYTEFFFSPVLWPDFGEDDFVEALISYQQRDRRFGQRA</Hsp_hseq>
+      <Hsp_midline>L+ ELMPRHVA I+DGNRRWA + GL T QGHEAGA+ L+++A+LCF+ G+HT+SAFAFSTENWGR   E++ LM L + Y  K  I FF R  +R+SVIG+ TKIPESLL+ I  IEE+T+ Y  KH+I+A+DYSG++DI  ACK +V+K++ G I+ EDVDE +IE+ELLT C++FP+PDL+IRTSGEQRISNF+LWQ AY+E FFSPV WPDF +D  +EAL SYQ+R+RRFG R </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>40</Hit_num>
+  <Hit_id>gi|727425211|ref|XP_010454263.1|</Hit_id>
+  <Hit_def>PREDICTED: dehydrodolichyl diphosphate synthase 5 [Camelina sativa]</Hit_def>
+  <Hit_accession>XP_010454263</Hit_accession>
+  <Hit_len>301</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>327.405</Hsp_bit-score>
+      <Hsp_score>838</Hsp_score>
+      <Hsp_evalue>3.98145e-109</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>303</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>301</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>166</Hsp_identity>
+      <Hsp_positive>220</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>305</Hsp_align-len>
+      <Hsp_qseq>MLSLLSSDSSLLSLLFLFLIPCLFITSYIGFPVFLLKLIGLIKIKAAR-DNEKRDEGTYVVREDGLQRELMPRHVAFILDGNRRWAKRAGLTTSQGHEAGAKRLIDIAELCFELGVHTVSAFAFSTENWGRDKIEIDNLMSLIQ-HYRNKSNIKFFHRSEVRVSVIGNKTKIPESLLKEIHEIEEATKGYKNKHLIMAVDYSGKFDIMHACKSLVKKSEKGLIREEDVDEALIERELLTNCSDFPSPDLMIRTSGEQRISNFFLWQLAYSELFFSPVFWPDFDKDKLLEALASYQRRERRFGCRV</Hsp_qseq>
+      <Hsp_hseq>MLSLFSVVFTFLALFLL--IPGLFISRRLRVPFSLENIIRFFKITASKYDDERNDERGPMGEKKKRAKNRMPKHVAVILDGNRRWAEKRGLGTSDGHEAGAKRLMENAKDCFAMGTNTISLFAFSTENWERPEDEVKCLMALFEKHF--KSEMPYFQRDKIRISVIGNRSKISRSLLGLIEEVEEATKSYEGKQLIIAIDYSGRFDILQACKNLAMKVKDGLIQVEDIDEKAMENELMTKCSEFPNPDLLIRTSGEQRISNFFLWQSAYTELYFPNVLWPDFGEAEYLEALTWYQQRQRRFGKRV</Hsp_hseq>
+      <Hsp_midline>MLSL S   + L+L  L  IP LFI+  +  P  L  +I   KI A++ D+E+ DE   +  +    +  MP+HVA ILDGNRRWA++ GL TS GHEAGAKRL++ A+ CF +G +T+S FAFSTENW R + E+  LM+L + H+  KS + +F R ++R+SVIGN++KI  SLL  I E+EEATK Y+ K LI+A+DYSG+FDI+ ACK+L  K + GLI+ ED+DE  +E EL+T CS+FP+PDL+IRTSGEQRISNFFLWQ AY+EL+F  V WPDF + + LEAL  YQ+R+RRFG RV</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>41</Hit_num>
+  <Hit_id>gi|685271387|ref|XP_009126735.1|</Hit_id>
+  <Hit_def>PREDICTED: dehydrodolichyl diphosphate synthase 5-like [Brassica rapa]</Hit_def>
+  <Hit_accession>XP_009126735</Hit_accession>
+  <Hit_len>303</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>327.405</Hsp_bit-score>
+      <Hsp_score>838</Hsp_score>
+      <Hsp_evalue>4.30648e-109</Hsp_evalue>
+      <Hsp_query-from>9</Hsp_query-from>
+      <Hsp_query-to>303</Hsp_query-to>
+      <Hsp_hit-from>9</Hsp_hit-from>
+      <Hsp_hit-to>303</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>158</Hsp_identity>
+      <Hsp_positive>222</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>297</Hsp_align-len>
+      <Hsp_qseq>SSLLSLLFLFLIPCLFITSYIGFPVFLLKLIGLIKIKAAR--DNEKRDEGTYVVREDGLQRELMPRHVAFILDGNRRWAKRAGLTTSQGHEAGAKRLIDIAELCFELGVHTVSAFAFSTENWGRDKIEIDNLMSLIQHYRNKSNIKFFHRSEVRVSVIGNKTKIPESLLKEIHEIEEATKGYKNKHLIMAVDYSGKFDIMHACKSLVKKSEKGLIREEDVDEALIERELLTNCSDFPSPDLMIRTSGEQRISNFFLWQLAYSELFFSPVFWPDFDKDKLLEALASYQRRERRFGCRV</Hsp_qseq>
+      <Hsp_hseq>SVVFTCLALLIIPVIIITRRLSVHLSFKNILRFIKLVASQLDDEEENNEKSGTIGEEDKRRRL-PKHVAIILDGNRRWAEKRGLGTSEGHHAGARRLIENAKDCVAMGINTVSLFAFSTENWARPEDEVNGLMALFEKHL-RSEMAFFRSDKIKISVIGNRTKISQSLLGLITEAEEATKNYEEKHLIIAIDYSGRFDILQACKSLAEKAKNGLIQVEDIDEDVMEKELMTNCSEFPNPDLLIRTSGEQRISNFFLWQSAYTELYFPNVLWPDFGEAEYLEALTWYQQRQRRFGLRV</Hsp_hseq>
+      <Hsp_midline>S + + L L +IP + IT  +   +    ++  IK+ A++  D E+ +E +  + E+  +R L P+HVA ILDGNRRWA++ GL TS+GH AGA+RLI+ A+ C  +G++TVS FAFSTENW R + E++ LM+L + +  +S + FF   ++++SVIGN+TKI +SLL  I E EEATK Y+ KHLI+A+DYSG+FDI+ ACKSL +K++ GLI+ ED+DE ++E+EL+TNCS+FP+PDL+IRTSGEQRISNFFLWQ AY+EL+F  V WPDF + + LEAL  YQ+R+RRFG RV</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>42</Hit_num>
+  <Hit_id>gi|674880080|emb|CDY52128.1|</Hit_id>
+  <Hit_def>BnaA10g29570D [Brassica napus]</Hit_def>
+  <Hit_accession>CDY52128</Hit_accession>
+  <Hit_len>302</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>326.25</Hsp_bit-score>
+      <Hsp_score>835</Hsp_score>
+      <Hsp_evalue>1.38339e-108</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>292</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>291</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>160</Hsp_identity>
+      <Hsp_positive>221</Hsp_positive>
+      <Hsp_gaps>13</Hsp_gaps>
+      <Hsp_align-len>298</Hsp_align-len>
+      <Hsp_qseq>MLSLLSSDSSLLSLLFLFLIPCLFITSYIGFPVFLLKLIGLIKIKAARD------NEKRDEGTYVVREDGLQRELMPRHVAFILDGNRRWAKRAGLTTSQGHEAGAKRLIDIAELCFELGVHTVSAFAFSTENWGRDKIEIDNLMSLIQHYRNKSNIKFFHRSEVRVSVIGNKTKIPESLLKEIHEIEEATKGYKNKHLIMAVDYSGKFDIMHACKSLVKKSEKGLIREEDVDEALIERELLTNCSDFPSPDLMIRTSGEQRISNFFLWQLAYSELFFSPVFWPDFDKDKLLEALASY</Hsp_qseq>
+      <Hsp_hseq>MVSLFSVVSTFIAIV---LIPGLFISRRLSVPFSIRNILRFIKLAASQNDNDEERNEKRGTNTMGEKE---KRGGLPKHVAIILDGNRRWAQKRGLGTSDGHKAGARRVIENAKDCFAMGINTVSLFAFSTENWARPEDEVNGLMSLFEE-NFRSEMPFFQRDKIKISVIGNRTKIPQSLLGLIRETEEATKSYEGKHLILAIDYSGRFDIMQACKSLAEKAKNGLIQVEDIDENVIDKELMTNCSEFPNPDLLIRTSGEQRISNFFLWQSAYTELYFPNVLWPDFGEAEYLEALTWY</Hsp_hseq>
+      <Hsp_midline>M+SL S  S+ ++++   LIP LFI+  +  P  +  ++  IK+ A+++      NEKR   T   +E   +R  +P+HVA ILDGNRRWA++ GL TS GH+AGA+R+I+ A+ CF +G++TVS FAFSTENW R + E++ LMSL +    +S + FF R ++++SVIGN+TKIP+SLL  I E EEATK Y+ KHLI+A+DYSG+FDIM ACKSL +K++ GLI+ ED+DE +I++EL+TNCS+FP+PDL+IRTSGEQRISNFFLWQ AY+EL+F  V WPDF + + LEAL  Y</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>43</Hit_num>
+  <Hit_id>gi|567204857|ref|XP_006408592.1|</Hit_id>
+  <Hit_def>hypothetical protein EUTSA_v10002055mg [Eutrema salsugineum] &gt;gi|557109748|gb|ESQ50045.1| hypothetical protein EUTSA_v10002055mg [Eutrema salsugineum]</Hit_def>
+  <Hit_accession>XP_006408592</Hit_accession>
+  <Hit_len>298</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>325.865</Hsp_bit-score>
+      <Hsp_score>834</Hsp_score>
+      <Hsp_evalue>1.5366e-108</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>300</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>295</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>159</Hsp_identity>
+      <Hsp_positive>222</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>300</Hsp_align-len>
+      <Hsp_qseq>MLSLLSSDSSLLSLLFLFLIPCLFITSYIGFPVFLLKLIGLIKIKAARDNEKRDEGTYVVREDGLQRELMPRHVAFILDGNRRWAKRAGLTTSQGHEAGAKRLIDIAELCFELGVHTVSAFAFSTENWGRDKIEIDNLMSLIQHYRNKSNIKFFHRSEVRVSVIGNKTKIPESLLKEIHEIEEATKGYKNKHLIMAVDYSGKFDIMHACKSLVKKSEKGLIREEDVDEALIERELLTNCSDFPSPDLMIRTSGEQRISNFFLWQLAYSELFFSPVFWPDFDKDKLLEALASYQRRERRFG</Hsp_qseq>
+      <Hsp_hseq>MLSLLSI---VFTFLALSLIPCLFISRRQSIPLSLKNILRFIKTGATQYNDEGESCSGTI-EETEKRGRIPNHVAIILDGNRRWAKIRGLEVSEGHEAGGRRVVENSKKWFAMGVKTVSLFAFSTENWGRPEDEVNFLMAMFEK-NFKSEMPYYQRYKIKISVIGKRTNIPESLLGLIREVEEATKSYKEKHLVMAIDYSGRFDILQACKSLSEKAKNGLIQVEDIDEKLMDKELMTSCSDFPNPDLLIRTSGEKRISNFFLWQSAYTELYFPNVLWPDFGEAEYLKALTWFQQRQRRFG</Hsp_hseq>
+      <Hsp_midline>MLSLLS    + + L L LIPCLFI+     P+ L  ++  IK  A + N++ +  +  + E+  +R  +P HVA ILDGNRRWAK  GL  S+GHEAG +R+++ ++  F +GV TVS FAFSTENWGR + E++ LM++ +    KS + ++ R ++++SVIG +T IPESLL  I E+EEATK YK KHL+MA+DYSG+FDI+ ACKSL +K++ GLI+ ED+DE L+++EL+T+CSDFP+PDL+IRTSGE+RISNFFLWQ AY+EL+F  V WPDF + + L+AL  +Q+R+RRFG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>44</Hit_num>
+  <Hit_id>gi|923599629|ref|XP_013740715.1|</Hit_id>
+  <Hit_def>PREDICTED: dehydrodolichyl diphosphate synthase 5-like [Brassica napus] &gt;gi|674950059|emb|CDX83248.1| BnaA03g22580D [Brassica napus]</Hit_def>
+  <Hit_accession>XP_013740715</Hit_accession>
+  <Hit_len>296</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>325.094</Hsp_bit-score>
+      <Hsp_score>832</Hsp_score>
+      <Hsp_evalue>3.08367e-108</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>292</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>285</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>160</Hsp_identity>
+      <Hsp_positive>215</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>292</Hsp_align-len>
+      <Hsp_qseq>MLSLLSSDSSLLSLLFLFLIPCLFITSYIGFPVFLLKLIGLIKIKAARDNEKRDEGTYVVREDGLQRELMPRHVAFILDGNRRWAKRAGLTTSQGHEAGAKRLIDIAELCFELGVHTVSAFAFSTENWGRDKIEIDNLMSLIQHYRNKSNIKFFHRSEVRVSVIGNKTKIPESLLKEIHEIEEATKGYKNKHLIMAVDYSGKFDIMHACKSLVKKSEKGLIREEDVDEALIERELLTNCSDFPSPDLMIRTSGEQRISNFFLWQLAYSELFFSPVFWPDFDKDKLLEALASY</Hsp_qseq>
+      <Hsp_hseq>MLSLLSI---FLTCLALILIPCLFIFRRPSVPLFLKKTIIFIKTATSQYNDEEESGTIGGKE---KRGRMPKHVAIILDGNRRWANKRGLRVSEGHEAGARRLLEHVMDCFAMGINTISLFAFSTENWGRPDGEVNFLMAMFEK-NFKSEMAYYDRYKVKISVIGRRTNMPESLLGLIQEVEEATKSYKEKHLIMAIDYSGRFDILQACKSLAEKTKNGLIQVEDIDERMIDKELMTSCSEYPNPDLLIRTSGEQRISNFFLWQSAYTELYFPNVLWPDFGEAEYLKALTWY</Hsp_hseq>
+      <Hsp_midline>MLSLLS     L+ L L LIPCLFI      P+FL K I  IK   ++ N++ + GT   +E   +R  MP+HVA ILDGNRRWA + GL  S+GHEAGA+RL++    CF +G++T+S FAFSTENWGR   E++ LM++ +    KS + ++ R +V++SVIG +T +PESLL  I E+EEATK YK KHLIMA+DYSG+FDI+ ACKSL +K++ GLI+ ED+DE +I++EL+T+CS++P+PDL+IRTSGEQRISNFFLWQ AY+EL+F  V WPDF + + L+AL  Y</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>45</Hit_num>
+  <Hit_id>gi|674871510|emb|CDY62967.1|</Hit_id>
+  <Hit_def>BnaC09g53740D [Brassica napus]</Hit_def>
+  <Hit_accession>CDY62967</Hit_accession>
+  <Hit_len>301</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>323.553</Hsp_bit-score>
+      <Hsp_score>828</Hsp_score>
+      <Hsp_evalue>1.59359e-107</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>292</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>290</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>154</Hsp_identity>
+      <Hsp_positive>221</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>294</Hsp_align-len>
+      <Hsp_qseq>MLSLLSSDSSLLSLLFLFLIPCLFITSYIGFPVFLLKLIGLIKIKAARDN--EKRDEGTYVVREDGLQRELMPRHVAFILDGNRRWAKRAGLTTSQGHEAGAKRLIDIAELCFELGVHTVSAFAFSTENWGRDKIEIDNLMSLIQHYRNKSNIKFFHRSEVRVSVIGNKTKIPESLLKEIHEIEEATKGYKNKHLIMAVDYSGKFDIMHACKSLVKKSEKGLIREEDVDEALIERELLTNCSDFPSPDLMIRTSGEQRISNFFLWQLAYSELFFSPVFWPDFDKDKLLEALASY</Hsp_qseq>
+      <Hsp_hseq>MVSLFSV---VLTFIAIILIPGLLISRRLSVPFSIRNILRFIKLAASQNDGEEERNEKRYGTMGEKEKRGGLPKHVAIILDGNRRWSQKRGLGTSDGHKAGARRVMENAKDCFAMGINTVSLFAFSTENWARPEDEVNGLMSLFEE-NFRSELPFFQRDKIKISVIGNRTKIPQSLLGLIRETEEATKSYEGKHLILAIDYSGKFDILQACKSLAEKAKNGVIQVEDIDESVIDKELMTNCSDFPNPDLLIRTSGEQRISNFFLWQSAYTELYFPNVLWPDFGEAEYLQALTWY</Hsp_hseq>
+      <Hsp_midline>M+SL S    +L+ + + LIP L I+  +  P  +  ++  IK+ A++++  E+R+E  Y    +  +R  +P+HVA ILDGNRRW+++ GL TS GH+AGA+R+++ A+ CF +G++TVS FAFSTENW R + E++ LMSL +    +S + FF R ++++SVIGN+TKIP+SLL  I E EEATK Y+ KHLI+A+DYSGKFDI+ ACKSL +K++ G+I+ ED+DE++I++EL+TNCSDFP+PDL+IRTSGEQRISNFFLWQ AY+EL+F  V WPDF + + L+AL  Y</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>46</Hit_num>
+  <Hit_id>gi|923891539|ref|XP_013716832.1|</Hit_id>
+  <Hit_def>PREDICTED: dehydrodolichyl diphosphate synthase 5-like [Brassica napus] &gt;gi|923915300|ref|XP_013727188.1| PREDICTED: dehydrodolichyl diphosphate synthase 5-like [Brassica napus]</Hit_def>
+  <Hit_accession>XP_013716832</Hit_accession>
+  <Hit_len>302</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>323.168</Hsp_bit-score>
+      <Hsp_score>827</Hsp_score>
+      <Hsp_evalue>1.96268e-107</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>292</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>291</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>158</Hsp_identity>
+      <Hsp_positive>220</Hsp_positive>
+      <Hsp_gaps>13</Hsp_gaps>
+      <Hsp_align-len>298</Hsp_align-len>
+      <Hsp_qseq>MLSLLSSDSSLLSLLFLFLIPCLFITSYIGFPVFLLKLIGLIKIKAARD------NEKRDEGTYVVREDGLQRELMPRHVAFILDGNRRWAKRAGLTTSQGHEAGAKRLIDIAELCFELGVHTVSAFAFSTENWGRDKIEIDNLMSLIQHYRNKSNIKFFHRSEVRVSVIGNKTKIPESLLKEIHEIEEATKGYKNKHLIMAVDYSGKFDIMHACKSLVKKSEKGLIREEDVDEALIERELLTNCSDFPSPDLMIRTSGEQRISNFFLWQLAYSELFFSPVFWPDFDKDKLLEALASY</Hsp_qseq>
+      <Hsp_hseq>MVSLFSV---VLTFIAIVLIPGLFISRRLSVPFSIRNILRFIKLAASQNDNDEERNEKRGTNTMGEKE---KRRGLPKHVAIILDGNRRWAQKRGLGTSDGHKAGARRVIENAKDCFAMGINTVSLFAFSTENWARPEDEVNGLMSLFEE-NFRSEMPFFQRDKIKISVIGNRTKIPQSLLGLIRETEEATKSYEGKHLILAIDYSGRFDIMQACKILAEKAKNGVIQVEDIDESVIDKELMTNCSEFPNPDLLIRTSGEQRISNFFLWQSAYTELYFPNVLWPDFGEAEYLEALTWY</Hsp_hseq>
+      <Hsp_midline>M+SL S    +L+ + + LIP LFI+  +  P  +  ++  IK+ A+++      NEKR   T   +E   +R  +P+HVA ILDGNRRWA++ GL TS GH+AGA+R+I+ A+ CF +G++TVS FAFSTENW R + E++ LMSL +    +S + FF R ++++SVIGN+TKIP+SLL  I E EEATK Y+ KHLI+A+DYSG+FDIM ACK L +K++ G+I+ ED+DE++I++EL+TNCS+FP+PDL+IRTSGEQRISNFFLWQ AY+EL+F  V WPDF + + LEAL  Y</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>47</Hit_num>
+  <Hit_id>gi|685374276|ref|XP_009120391.1|</Hit_id>
+  <Hit_def>PREDICTED: dehydrodolichyl diphosphate synthase 5-like [Brassica rapa]</Hit_def>
+  <Hit_accession>XP_009120391</Hit_accession>
+  <Hit_len>302</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>321.627</Hsp_bit-score>
+      <Hsp_score>823</Hsp_score>
+      <Hsp_evalue>9.24511e-107</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>292</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>291</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>158</Hsp_identity>
+      <Hsp_positive>219</Hsp_positive>
+      <Hsp_gaps>13</Hsp_gaps>
+      <Hsp_align-len>298</Hsp_align-len>
+      <Hsp_qseq>MLSLLSSDSSLLSLLFLFLIPCLFITSYIGFPVFLLKLIGLIKIKAARD------NEKRDEGTYVVREDGLQRELMPRHVAFILDGNRRWAKRAGLTTSQGHEAGAKRLIDIAELCFELGVHTVSAFAFSTENWGRDKIEIDNLMSLIQHYRNKSNIKFFHRSEVRVSVIGNKTKIPESLLKEIHEIEEATKGYKNKHLIMAVDYSGKFDIMHACKSLVKKSEKGLIREEDVDEALIERELLTNCSDFPSPDLMIRTSGEQRISNFFLWQLAYSELFFSPVFWPDFDKDKLLEALASY</Hsp_qseq>
+      <Hsp_hseq>MVSLFSV---VLTFIAIVLIPGLFISRRLSVPFSIRNILRFIKLAASQNDNDEERNEKRGTNTMGEKE---KRGGLPKHVAIILDGNRRWAQKRGLGTSDGHKAGARRVIENAKDCFAMGINTVSLFAFSTENWARPEDEVNGLMSLFEE-NFRSEMPFFQRDKIKISVVRNRTKIPQSLLGLIRETEEATKSYEGKHLILAIDYSGRFDIMQACKSLAEKAKNGLIQVEDIDENVIDKELMTNCSEFPNPDLLIRTSGEQRISNFFLWQSAYTELYFPNVLWPDFGEAEYLEALTWY</Hsp_hseq>
+      <Hsp_midline>M+SL S    +L+ + + LIP LFI+  +  P  +  ++  IK+ A+++      NEKR   T   +E   +R  +P+HVA ILDGNRRWA++ GL TS GH+AGA+R+I+ A+ CF +G++TVS FAFSTENW R + E++ LMSL +    +S + FF R ++++SV+ N+TKIP+SLL  I E EEATK Y+ KHLI+A+DYSG+FDIM ACKSL +K++ GLI+ ED+DE +I++EL+TNCS+FP+PDL+IRTSGEQRISNFFLWQ AY+EL+F  V WPDF + + LEAL  Y</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>48</Hit_num>
+  <Hit_id>gi|923554512|ref|XP_013737721.1|</Hit_id>
+  <Hit_def>PREDICTED: dehydrodolichyl diphosphate synthase 5-like [Brassica napus]</Hit_def>
+  <Hit_accession>XP_013737721</Hit_accession>
+  <Hit_len>300</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>320.087</Hsp_bit-score>
+      <Hsp_score>819</Hsp_score>
+      <Hsp_evalue>3.16748e-106</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>292</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>289</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>156</Hsp_identity>
+      <Hsp_positive>223</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>296</Hsp_align-len>
+      <Hsp_qseq>MLSLLSSDSSLLSLLFLFLIPCLFITSYIGFPVFLLKLIGLIKIKAARDN--EKRDE--GTYVVREDGLQRELMPRHVAFILDGNRRWAKRAGLTTSQGHEAGAKRLIDIAELCFELGVHTVSAFAFSTENWGRDKIEIDNLMSLIQHYRNKSNIKFFHRSEVRVSVIGNKTKIPESLLKEIHEIEEATKGYKNKHLIMAVDYSGKFDIMHACKSLVKKSEKGLIREEDVDEALIERELLTNCSDFPSPDLMIRTSGEQRISNFFLWQLAYSELFFSPVFWPDFDKDKLLEALASY</Hsp_qseq>
+      <Hsp_hseq>MVSLFSV---VLTFIAIILIPGLLISRRLSVPFSIRNILRFIKLAASQNDGEEERNEKRGTMGEKE---KRGGLPKHVAIILDGNRRWSQKRGLGTSDGHKAGARRVMENAKDCFAMGINTVSLFAFSTENWARPEDEVNGLMSLFEE-NFRSELPFFQRDKIKISVIGNRTKIPQSLLGLIRETEEATKSYEGKHLILAIDYSGKFDILQACKSLAEKAKNGVIQVEDIDESVIDKELMTNCSDFPNPDLLIRTSGEQRISNFFLWQSAYTELYFPNVLWPDFGEAEYLQALTWY</Hsp_hseq>
+      <Hsp_midline>M+SL S    +L+ + + LIP L I+  +  P  +  ++  IK+ A++++  E+R+E  GT   +E   +R  +P+HVA ILDGNRRW+++ GL TS GH+AGA+R+++ A+ CF +G++TVS FAFSTENW R + E++ LMSL +    +S + FF R ++++SVIGN+TKIP+SLL  I E EEATK Y+ KHLI+A+DYSGKFDI+ ACKSL +K++ G+I+ ED+DE++I++EL+TNCSDFP+PDL+IRTSGEQRISNFFLWQ AY+EL+F  V WPDF + + L+AL  Y</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>49</Hit_num>
+  <Hit_id>gi|685275328|ref|XP_009128659.1|</Hit_id>
+  <Hit_def>PREDICTED: dehydrodolichyl diphosphate synthase 5-like [Brassica rapa]</Hit_def>
+  <Hit_accession>XP_009128659</Hit_accession>
+  <Hit_len>296</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>318.546</Hsp_bit-score>
+      <Hsp_score>815</Hsp_score>
+      <Hsp_evalue>1.24834e-105</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>303</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>296</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>161</Hsp_identity>
+      <Hsp_positive>216</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>303</Hsp_align-len>
+      <Hsp_qseq>MLSLLSSDSSLLSLLFLFLIPCLFITSYIGFPVFLLKLIGLIKIKAARDNEKRDEGTYVVREDGLQRELMPRHVAFILDGNRRWAKRAGLTTSQGHEAGAKRLIDIAELCFELGVHTVSAFAFSTENWGRDKIEIDNLMSLIQHYRNKSNIKFFHRSEVRVSVIGNKTKIPESLLKEIHEIEEATKGYKNKHLIMAVDYSGKFDIMHACKSLVKKSEKGLIREEDVDEALIERELLTNCSDFPSPDLMIRTSGEQRISNFFLWQLAYSELFFSPVFWPDFDKDKLLEALASYQRRERRFGCRV</Hsp_qseq>
+      <Hsp_hseq>MLSLLSI---VLTFLSLIVMPCLFVSWRLRVPLSITNIRRFIKTTASQCNDKEESGTTGEKEKGGR---MPKHVAIILEGNRRWAEKRGLGPSQGQEAGARTVMENVKDYFSMGINTVSLFAFSTENWGRPGDEVKYIMDMFEKIV-KSEMPNLRRYGVKVSVIGKRTNIPESLLHLIGEAEEATKNNKEKQLIMALDYSGKFDILQACKSLAEKAKNGLINIEDIDENLMDKELMTSCSEFPNPDLLIRTSGEQRISNFYLWQSAYTELYFPSVLWPDFGGAEYLEALDWYQKRQRRFGLRV</Hsp_hseq>
+      <Hsp_midline>MLSLLS    +L+ L L ++PCLF++  +  P+ +  +   IK  A++ N+K + GT   +E G +   MP+HVA IL+GNRRWA++ GL  SQG EAGA+ +++  +  F +G++TVS FAFSTENWGR   E+  +M + +    KS +    R  V+VSVIG +T IPESLL  I E EEATK  K K LIMA+DYSGKFDI+ ACKSL +K++ GLI  ED+DE L+++EL+T+CS+FP+PDL+IRTSGEQRISNF+LWQ AY+EL+F  V WPDF   + LEAL  YQ+R+RRFG RV</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>50</Hit_num>
+  <Hit_id>gi|923798256|ref|XP_013686514.1|</Hit_id>
+  <Hit_def>PREDICTED: dehydrodolichyl diphosphate synthase 5-like isoform X1 [Brassica napus] &gt;gi|674885107|emb|CDY47420.1| BnaA02g21620D [Brassica napus]</Hit_def>
+  <Hit_accession>XP_013686514</Hit_accession>
+  <Hit_len>296</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>317.775</Hsp_bit-score>
+      <Hsp_score>813</Hsp_score>
+      <Hsp_evalue>2.27518e-105</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>303</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>296</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>160</Hsp_identity>
+      <Hsp_positive>216</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>303</Hsp_align-len>
+      <Hsp_qseq>MLSLLSSDSSLLSLLFLFLIPCLFITSYIGFPVFLLKLIGLIKIKAARDNEKRDEGTYVVREDGLQRELMPRHVAFILDGNRRWAKRAGLTTSQGHEAGAKRLIDIAELCFELGVHTVSAFAFSTENWGRDKIEIDNLMSLIQHYRNKSNIKFFHRSEVRVSVIGNKTKIPESLLKEIHEIEEATKGYKNKHLIMAVDYSGKFDIMHACKSLVKKSEKGLIREEDVDEALIERELLTNCSDFPSPDLMIRTSGEQRISNFFLWQLAYSELFFSPVFWPDFDKDKLLEALASYQRRERRFGCRV</Hsp_qseq>
+      <Hsp_hseq>MLSLLSI---VLTFLSLIIMPCLFVSWRLRVPLSITNIRRFIKTTASQCNDKEESGTTGEKEKGGR---MPKHVAIILDGNRRWAEKRGLGPSQGQEAGARTVMENVKDYFSMGINTVSLFAFSTENWGRPGDEVKYIMDMFEKIV-KSEMPNLRRYGVKVSVIGKRTNIPESLLHLIGEAEEATKNNKEKQLIVALDYSGKFDILQACKSLAEKAKNGLINVEDIDENLMDKELMTSCSEFPNPDLLIRTSGEQRISNFYLWQSAYTELYFPSVLWPDFGGAEYLEALDWYQKKQRRFGLRV</Hsp_hseq>
+      <Hsp_midline>MLSLLS    +L+ L L ++PCLF++  +  P+ +  +   IK  A++ N+K + GT   +E G +   MP+HVA ILDGNRRWA++ GL  SQG EAGA+ +++  +  F +G++TVS FAFSTENWGR   E+  +M + +    KS +    R  V+VSVIG +T IPESLL  I E EEATK  K K LI+A+DYSGKFDI+ ACKSL +K++ GLI  ED+DE L+++EL+T+CS+FP+PDL+IRTSGEQRISNF+LWQ AY+EL+F  V WPDF   + LEAL  YQ+++RRFG RV</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>95978432</Statistics_db-num>
+      <Statistics_db-len>1017017842</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+
